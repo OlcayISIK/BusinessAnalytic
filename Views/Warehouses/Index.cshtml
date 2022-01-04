@@ -1,0 +1,71 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<BusinessAnalytic.Models.Entities.ProductInventory>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light p-lg-5 section">
+    <h1>Ware Houses</h1>
+
+    <p>
+        <a class="button" asp-action="Create">Create New Ware House</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Shelf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Bin)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().ModifiedDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Product)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Product.SafetyStockLevel)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Shelf)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Bin)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ModifiedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product.SafetyStockLevel)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+</div>

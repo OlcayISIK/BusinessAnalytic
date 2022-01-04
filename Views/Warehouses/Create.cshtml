@@ -1,0 +1,56 @@
+﻿@model BusinessAnalytic.Models.Entities.ProductInventory
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light section Form">
+
+    <div class="card-header">
+        <h1>
+            Product Inventory Create
+        </h1>
+    </div>
+    <div class="p-lg-5">
+        <div class="row">
+            <div class="col-md-12">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="ProductId" class="control-label"></label>
+                        <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LocationId" class="control-label"></label>
+                        <select asp-for="LocationId" class="form-control" asp-items="ViewBag.LocationId"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Shelf" class="control-label"></label>
+                        <input asp-for="Shelf" class="form-control" />
+                        <span asp-validation-for="Shelf" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Bin" class="control-label"></label>
+                        <input asp-for="Bin" class="form-control" />
+                        <span asp-validation-for="Bin" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Quantity" class="control-label"></label>
+                        <input asp-for="Quantity" class="form-control" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <a class="btn bg-primary text-white" style="float: left; width: 300px;" asp-action="Index">Back to List</a>
+                        <input style="float:right; width:300px;" type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

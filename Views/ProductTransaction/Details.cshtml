@@ -1,0 +1,71 @@
+﻿@model BusinessAnalytic.Models.Entities.TransactionHistory
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light section Form">
+    <div class="card-header">
+        <h1>Transaction History Details</h1>
+    </div>
+
+    <div class="p-lg-5">
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReferenceOrderId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReferenceOrderId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReferenceOrderLineId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReferenceOrderLineId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TransactionDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TransactionDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TransactionType)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TransactionType)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Quantity)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Quantity)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ActualCost)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ActualCost)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ModifiedDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ModifiedDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Product)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Product.Name)
+            </dd>
+        </dl>  
+        <div>
+            <div class="form-group text-white">
+                <a class="btn bg-primary text-white" style="float: left; width: 300px;" asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿.section {
+    height: 45em;
+    width: 80em;
+    overflow-y: hidden;
+    direction: ltr;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+}
+.Form{
+    overflow-y: auto;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p + p {
+    margin-top: 1rem;
+}
+
+
+.section::-webkit-scrollbar {
+    width: 20px;
+}
+
+.section::-webkit-scrollbar-track {
+    background-color: #bababa;
+    border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 6px solid rgba(0, 0, 0, 0.18);
+    border-left: 0;
+    border-right: 0;
+    background-color: #8070d4;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+    .button:hover {
+        text-decoration: none;
+        color: #000000;
+        background-color: #73b776; /* Green */
+    }

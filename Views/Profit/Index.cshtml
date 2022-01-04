@@ -1,0 +1,73 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<BusinessAnalytic.Models.Entities.ProductVendor>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light p-lg-5 section">
+    <h1>Vendors</h1>
+
+    <p>
+        <a class="button" asp-action="Create">Create New Vendor</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.First().StandardPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().LastReceiptCost)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().LastReceiptDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().MaxOrderQty)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().OnOrderQty)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Product)
+                </th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StandardPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastReceiptCost)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastReceiptDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaxOrderQty)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OnOrderQty)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product.Name)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ProductId" asp-route-id2="@item.BusinessEntityId">Edit   </a> |
+                        <a asp-action="Details" asp-route-id="@item.ProductId" asp-route-id2="@item.BusinessEntityId">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+</div>

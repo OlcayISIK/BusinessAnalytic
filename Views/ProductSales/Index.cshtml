@@ -1,0 +1,77 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<BusinessAnalytic.Models.Entities.SalesOrderHeader>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light p-lg-5 section">
+
+
+    <h1>Product Sales</h1>
+
+   
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.First().DueDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().ShipDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().SubTotal)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().TaxAmt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Freight)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().TotalDue)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().ShipToAddress)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShipDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SubTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaxAmt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Freight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalDue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShipToAddress.AddressLine1)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.SalesOrderId">Details</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+</div>

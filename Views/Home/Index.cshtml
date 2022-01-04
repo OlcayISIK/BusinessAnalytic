@@ -1,0 +1,198 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .update-notes-card-header {
+        /*border-bottom: 3px solid white;*/
+    }
+
+    .update-notes-card {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent !important;
+        color: white;
+        border: 3px solid white;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+
+    .update-notes-card-content {
+        padding: 12px;
+        overflow-y: scroll;
+        max-height: 300px;
+    }
+
+    .update-text {
+        float: left;
+        width: 90%;
+    }
+
+    .info-btn {
+        float: right;
+        width: 10%;
+    }
+
+    .card-caption {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .content-grid {
+        border-top: 1px solid white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 0;
+        font-weight: normal;
+        position: relative;
+        padding: 0 0 10px 0;
+        font-weight: normal;
+        line-height: 120% !important;
+        color: #1f1f1f;
+        margin: 0
+    }
+
+    h1 {
+        font-size: 24px
+    }
+
+    h2 {
+        font-size: 22px
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    h5 {
+        font-size: 14px
+    }
+
+    h6 {
+        font-size: 13px
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    .app-container {
+        background: url(../../wwwroot/banner.png) no-repeat center top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .banner {
+        /*    height: 100%;
+    min-height: 100%;*/
+    }
+
+        .banner .container, .banner .banner-static, .banner .col-lg-12 {
+            height: 100%;
+        }
+
+    .banner-text {
+        display: table;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-cell {
+        display: table-cell;
+        vertical-align: middle;
+        color: #fff;
+    }
+
+    .banner-text h1 {
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 2.7px;
+        position: relative;
+        display: inline-block;
+        font-size: 74px;
+        line-height: 100px;
+        color: #fff;
+        padding-bottom: 0px;
+        padding-top: 100px;
+    }
+
+    .banner-text h2 {
+        font-family: 'Dancing Script', cursive;
+        color: orange;
+        letter-spacing: 2.7px;
+        position: relative;
+        font-size: 37px;
+        line-height: 100px;
+        padding-bottom: 25px;
+    }
+
+    .banner-text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #ccc;
+        padding-bottom: 35px;
+        margin: 0px;
+    }
+
+    .banner-cell .mouse {
+        position: relative;
+        width: calc(16px * 2);
+        height: calc(31px * 2);
+        margin: 60px auto 20px;
+        background: none;
+        border: 2px solid white;
+        border-radius: calc(16px * 2);
+        z-index: 1;
+    }
+
+        .banner-cell .mouse:after {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            width: calc(4px * 2);
+            height: calc(4px * 2);
+            background: none;
+            border: 2px solid white;
+            border-radius: 100%;
+            -webkit-animation-name: scrollWheel;
+            animation-name: scrollWheel;
+            -webkit-animation-duration: 1.4s;
+            animation-duration: 1.4s;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+            will-change: transform;
+        }
+</style>
+<div class="text-center">
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1 class="mt-lg-5">Welcome To System<span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Friends:Family:Officemates" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2 class="mt-lg-3">Take Control of Your Company </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

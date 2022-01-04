@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/businessanalyticdbserver/databases/AdventureWorks2019",
+      "type": "mssql.azure",
+      "connectionId": "AdventureWorks2019Context"
+    }
+  }
+}

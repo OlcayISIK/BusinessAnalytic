@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BusinessAnalytic</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Table.css" />
+</head>
+<style>
+    .navbar-global {
+        background-color: darkblue;
+    }
+
+        .navbar-global .navbar-brand {
+            color: white;
+        }
+
+        .navbar-global .navbar-user > li > a {
+            color: white;
+        }
+
+    .navbar-primary {
+        background-color: #c7c7c7;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        top: 51px;
+        width: 200px;
+        z-index: 8;
+        overflow: hidden;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+        .navbar-primary.collapsed {
+            width: 60px;
+        }
+
+            .navbar-primary.collapsed .glyphicon {
+                font-size: 22px;
+            }
+
+            .navbar-primary.collapsed .nav-label {
+                display: none;
+            }
+
+    .btn-expand-collapse {
+        position: absolute;
+        display: block;
+        left: 0px;
+        bottom: 0;
+        width: 100%;
+        padding: 8px 0;
+        border-top: solid 1px #666;
+        color: grey;
+        font-size: 20px;
+        text-align: center;
+    }
+
+        .btn-expand-collapse:hover,
+        .btn-expand-collapse:focus {
+            background-color: #222;
+            color: white;
+        }
+
+        .btn-expand-collapse:active {
+            background-color: #111;
+        }
+
+    .navbar-primary-menu,
+    .navbar-primary-menu li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .navbar-primary-menu li a {
+            display: block;
+            padding: 10px 18px;
+            text-align: left;
+            border-bottom: solid 0px #444;
+            color: #2a2a2a;
+        }
+
+            .navbar-primary-menu li a:hover {
+                background-color: #000;
+                text-decoration: none;
+                color: white;
+            }
+
+            .navbar-primary-menu li a .glyphicon {
+                margin-right: 6px;
+            }
+
+            .navbar-primary-menu li a:hover .glyphicon {
+                color: orchid;
+            }
+
+    .main-content {
+        margin-top: 60px;
+        margin-left: 200px;
+        padding: 20px;
+    }
+
+    .collapsed + .main-content {
+        margin-left: 60px;
+    }
+</style>
+
+<body>
+    <div class="fixed-bottom" style="background-image: url('../../banner3.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 100%;">
+        <header>
+            <nav class="navbar navbar-inverse navbar-global navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/Home">Business Analytic</a>
+                    </div>
+                    <div id="navbar">
+                        <ul class="nav navbar-nav navbar-user navbar-right">
+                            <li> <a style="text-decoration:none" href="~/Login/Logout">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar-primary mt-1 pt-lg-2">
+                <ul class="navbar-primary-menu">
+                    <li>
+                        <a href="/Home"><span class="glyphicon glyphicon-list-alt"></span><span class="nav-label">Home</span></a>
+                        <a href="/Customers/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Customers</span></a>
+                        <a href="/Employees/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Employee</span></a>
+                        <a href="/Products/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Products</span></a>
+                        <a href="/ProductPurchase/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Products Purchase</span></a>
+                        <a href="/ProductSales/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Products Sales</span></a>
+                        <a href="/ProductTransaction/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Products Transaction</span></a>
+                        <a href="/Profit/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Vendors</span></a>
+                        <a href="/SalesTerritories/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Sales Territories</span></a>
+                        <a href="/Warehouses/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Warehouses</span></a>
+                        <a href="/Dashboard/Index"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Dashboard</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3 mt-lg-4">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

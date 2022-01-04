@@ -1,0 +1,1138 @@
+﻿2022-01-04T00:30:41.4902513+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-01-04T00:30:41.4903976+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework net50 in x64 mode execution started
+2022-01-04T00:30:41.4904011+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-01-04T00:30:41.4917698+03:00;VSTestExecutionThread;Info;Current UserName: 'Olcay', MachineName: 'DESKTOP-J4RUBB3'
+2022-01-04T00:30:41.5117095+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Functional.Testing.dll
+2022-01-04T00:30:41.5119269+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Olcay\OneDrive\Masaüstü\sa\BusinessAnalytic\TestResults" (default)
+2022-01-04T00:30:41.5119636+03:00;VSTestExecutionThread;Info;Profile: 
+2022-01-04T00:30:41.5407532+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\Olcay\OneDrive\Masaüstü\sa\BusinessAnalytic\TestResults\Unnamed project__2022-01-04T003041.log
+2022-01-04T00:30:41.5434625+03:00;Thread#12;Info;Checking activation
+2022-01-04T00:30:41.6055433+03:00;Thread#12;Info;Activated.
+2022-01-04T00:30:41.6059609+03:00;Thread#12;Info;Activation check completed
+2022-01-04T00:30:41.6060207+03:00;Thread#12;Info;Starting test run
+2022-01-04T00:30:41.6605752+03:00;Thread#12;Info;Discovering target: Default
+2022-01-04T00:30:41.6607426+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Functional.Testing.dll
+2022-01-04T00:30:41.7170861+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Functional.Testing.dll
+2022-01-04T00:30:41.7190005+03:00:Test Suite Dump
+2022-01-04T00:30:41.7201946+03:00:#0: Unnamed project/ - 
+2022-01-04T00:30:41.7202119+03:00:#1: Default - 
+2022-01-04T00:30:41.7202131+03:00:#2: Functional.Testing - 
+2022-01-04T00:30:41.7202163+03:00:#3: Customer - 
+2022-01-04T00:30:41.7202175+03:00:#6: Employees - 
+2022-01-04T00:30:41.7202189+03:00:#12: Login - 
+2022-01-04T00:30:41.7202282+03:00:#16: Product Purchase - 
+2022-01-04T00:30:41.7202296+03:00:#19: Products Sales - 
+2022-01-04T00:30:41.7202306+03:00:#22: Product - 
+2022-01-04T00:30:41.7202323+03:00:#29: Product Transaction - 
+2022-01-04T00:30:41.7202343+03:00:#32: Profit - 
+2022-01-04T00:30:41.7202357+03:00:#39: Sales Territories - 
+2022-01-04T00:30:41.7202368+03:00:#42: WareHause - 
+2022-01-04T00:30:41.7209704+03:00:#4: Index Function Test - TestAssembly:Functional.Testing/Feature:Customer/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210002+03:00:#5: Customer detail has - TestAssembly:Functional.Testing/Feature:Customer/Scenario:Customer+detail+has
+2022-01-04T00:30:41.7210046+03:00:#7: Index Function Test - TestAssembly:Functional.Testing/Feature:Employees/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210076+03:00:#8: Employees detail has - TestAssembly:Functional.Testing/Feature:Employees/Scenario:Employees+detail+has
+2022-01-04T00:30:41.7210107+03:00:#9: Employee Create - TestAssembly:Functional.Testing/Feature:Employees/Scenario:Employee+Create
+2022-01-04T00:30:41.7210163+03:00:#10: Employee Edit - TestAssembly:Functional.Testing/Feature:Employees/Scenario:Employee+Edit
+2022-01-04T00:30:41.7210191+03:00:#11: Employee Exist - TestAssembly:Functional.Testing/Feature:Employees/Scenario:Employee+Exist
+2022-01-04T00:30:41.7210218+03:00:#13: Login - TestAssembly:Functional.Testing/Feature:Login/Scenario:Login
+2022-01-04T00:30:41.7210247+03:00:#14: Wrong login - TestAssembly:Functional.Testing/Feature:Login/Scenario:Wrong+login
+2022-01-04T00:30:41.7210297+03:00:#15: Register - TestAssembly:Functional.Testing/Feature:Login/Scenario:Register
+2022-01-04T00:30:41.7210332+03:00:#17: Index Function Test - TestAssembly:Functional.Testing/Feature:Product+Purchase/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210361+03:00:#18: Product detail has - TestAssembly:Functional.Testing/Feature:Product+Purchase/Scenario:Product+detail+has
+2022-01-04T00:30:41.7210415+03:00:#20: Index Function Test - TestAssembly:Functional.Testing/Feature:Products+Sales/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210446+03:00:#21: Products Sales detail has - TestAssembly:Functional.Testing/Feature:Products+Sales/Scenario:Products+Sales+detail+has
+2022-01-04T00:30:41.7210476+03:00:#23: Index Function Test - TestAssembly:Functional.Testing/Feature:Product/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210501+03:00:#24: Products detail has - TestAssembly:Functional.Testing/Feature:Product/Scenario:Products+detail+has
+2022-01-04T00:30:41.7210556+03:00:#25: Product Create - TestAssembly:Functional.Testing/Feature:Product/Scenario:Product+Create
+2022-01-04T00:30:41.7210584+03:00:#26: Product Edit - TestAssembly:Functional.Testing/Feature:Product/Scenario:Product+Edit
+2022-01-04T00:30:41.7210609+03:00:#27: Product Delete - TestAssembly:Functional.Testing/Feature:Product/Scenario:Product+Delete
+2022-01-04T00:30:41.7210633+03:00:#28: Product Exist - TestAssembly:Functional.Testing/Feature:Product/Scenario:Product+Exist
+2022-01-04T00:30:41.7210695+03:00:#30: Index Function Test - TestAssembly:Functional.Testing/Feature:Product+Transaction/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210723+03:00:#31: Product detail has - TestAssembly:Functional.Testing/Feature:Product+Transaction/Scenario:Product+detail+has
+2022-01-04T00:30:41.7210750+03:00:#33: Index Function Test - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7210776+03:00:#34: Profit detail has - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Profit+detail+has
+2022-01-04T00:30:41.7210827+03:00:#35: Profit Create - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Profit+Create
+2022-01-04T00:30:41.7210853+03:00:#36: Profit Edit - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Profit+Edit
+2022-01-04T00:30:41.7210878+03:00:#37: Profit Delete - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Profit+Delete
+2022-01-04T00:30:41.7210904+03:00:#38: Profit Exist - TestAssembly:Functional.Testing/Feature:Profit/Scenario:Profit+Exist
+2022-01-04T00:30:41.7211009+03:00:#40: Index Function Test - TestAssembly:Functional.Testing/Feature:Sales+Territories/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7211045+03:00:#41: Sales Territories detail has - TestAssembly:Functional.Testing/Feature:Sales+Territories/Scenario:Sales+Territories+detail+has
+2022-01-04T00:30:41.7211076+03:00:#43: Index Function Test - TestAssembly:Functional.Testing/Feature:WareHause/Scenario:Index+Function+Test
+2022-01-04T00:30:41.7211128+03:00:#44: WareHause Create - TestAssembly:Functional.Testing/Feature:WareHause/Scenario:WareHause+Create
+2022-01-04T00:30:41.7211381+03:00:End: Test Suite Dump
+2022-01-04T00:30:41.7318891+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:41.7332416+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2022-01-04T00:30:41.7333140+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2022-01-04T00:30:41.7358125+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:41.7358426+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:41.7358447+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:41.7358662+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2022-01-04T00:30:41.7364140+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2022-01-04T00:30:41.7370616+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:41.7384255+03:00:Thread #0: creating new test thread executor for Functional.Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2022-01-04T00:30:41.7401668+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-04T00:30:41.7403008+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2022-01-04T00:30:41.7418991+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2022-01-04T00:30:41.7433583+03:00:starting Out Of Process Executor
+2022-01-04T00:30:41.7449917+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-04T00:30:41.7468290+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2022-01-04T00:30:41.7468422+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2022-01-04T00:30:41.7475926+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:41.7478989+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.dll'
+2022-01-04T00:30:41.7479951+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.exe'
+2022-01-04T00:30:41.7480369+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:41.7481717+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:41.7486938+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:41.7487051+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:41.7487065+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.dll'
+2022-01-04T00:30:41.7487776+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Validation.exe'
+2022-01-04T00:30:41.7488049+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:41.7569351+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:41.7569637+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.VisualStudio.Validation.dll'
+2022-01-04T00:30:41.7570140+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.VisualStudio.Validation.exe'
+2022-01-04T00:30:41.7570332+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:41.7571704+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:41.7571760+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.VisualStudio.Validation.dll'
+2022-01-04T00:30:41.7572149+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.VisualStudio.Validation.exe'
+2022-01-04T00:30:41.7572500+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:41.7573389+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:41.7573422+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.VisualStudio.Validation.dll'
+2022-01-04T00:30:41.7573769+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.VisualStudio.Validation.exe'
+2022-01-04T00:30:41.7573960+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:41.7622471+03:00:Starting callback TCP Rpc server
+2022-01-04T00:30:41.7740797+03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2022-01-04T00:30:41.7741214+03:00:Started callback TCP Rpc server on port 32768
+2022-01-04T00:30:41.7741245+03:00:Starting logger TCP Rpc server
+2022-01-04T00:30:41.7753220+03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2022-01-04T00:30:41.7753433+03:00:Started logger TCP Rpc server on port 32769
+2022-01-04T00:30:41.8231959+03:00:Executing test executor at 'dotnet' 'exec "C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\net5.0\TechTalk.SpecRun.Framework.Executor.anycpu.net5_0.dll" --remoteRunnerPid 7744 --uniqueId "2022-01-04T003041" --outputFolder "C:\Users\Olcay\OneDrive\Masaüstü\sa\BusinessAnalytic\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:41.8283262+03:00:Executor with PID 22784 has been started successfully.
+2022-01-04T00:30:41.8310361+03:00:Out of Process Executor 22784 started
+2022-01-04T00:30:41.8310748+03:00:Waiting for endpoint
+2022-01-04T00:30:42.0318072+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-04T00:30:42.0318259+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2022-01-04T00:30:42.0318273+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2022-01-04T00:30:42.0318298+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.0318322+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.dll'
+2022-01-04T00:30:42.0318554+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.exe'
+2022-01-04T00:30:42.0318737+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.0318755+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.0318976+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.0318996+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.0319003+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.dll'
+2022-01-04T00:30:42.0319363+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.VisualStudio.Threading.exe'
+2022-01-04T00:30:42.0319584+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.0322084+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.0322138+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.VisualStudio.Threading.dll'
+2022-01-04T00:30:42.0322386+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.VisualStudio.Threading.exe'
+2022-01-04T00:30:42.0322552+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.0323149+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:42.0323185+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.VisualStudio.Threading.dll'
+2022-01-04T00:30:42.0323396+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.VisualStudio.Threading.exe'
+2022-01-04T00:30:42.0323541+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:42.0324061+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:42.0324093+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.VisualStudio.Threading.dll'
+2022-01-04T00:30:42.0324283+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.VisualStudio.Threading.exe'
+2022-01-04T00:30:42.0324443+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:42.1717869+03:00:Remote executor port received: 32770
+2022-01-04T00:30:42.1719850+03:00:Creating executor TCP client on port 32770
+2022-01-04T00:30:42.1722125+03:00:Created executor TCP client on port 32770
+2022-01-04T00:30:42.1722197+03:00:Connecting to remote executor TCP server
+2022-01-04T00:30:42.1728968+03:00:Connected remote executor TCP server
+2022-01-04T00:30:42.1729673+03:00:trying to connect to Out of Process Executor the 1 attempt
+2022-01-04T00:30:42.1729719+03:00:Connection to Out of Process Executor established in the 1 attempt
+2022-01-04T00:30:42.2752950+03:00:2022-01-04T00:30:42.2743867+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Functional.Testing.dll on test thread #0
+2022-01-04T00:30:42.2791556+03:00:Endpoint 22784 started
+2022-01-04T00:30:42.2918845+03:00:2022-01-04T00:30:42.2915806+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2022-01-04T00:30:42.3962869+03:00:2022-01-04T00:30:42.3956848+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-04T00:30:42.3985094+03:00:2022-01-04T00:30:42.3981254+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2022-01-04T00:30:42.4004834+03:00:2022-01-04T00:30:42.4002209+03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Olcay\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2022-01-04T00:30:42.4714241+03:00:2022-01-04T00:30:42.4709739+03:00:Thread#0:T:-> Loading plugin C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Functional.Testing.dll
+2022-01-04T00:30:42.4727029+03:00:2022-01-04T00:30:42.4720970+03:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.4733267+03:00:2022-01-04T00:30:42.4729833+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2022-01-04T00:30:42.4742002+03:00:2022-01-04T00:30:42.4738093+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\Olcay\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2022-01-04T00:30:42.5020344+03:00:2022-01-04T00:30:42.5015366+03:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.5026409+03:00:2022-01-04T00:30:42.5023211+03:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2022-01-04T00:30:42.5032112+03:00:2022-01-04T00:30:42.5029217+03:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\Olcay\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2022-01-04T00:30:42.5091238+03:00:2022-01-04T00:30:42.5087320+03:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in Functional.Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2022-01-04T00:30:42.5095896+03:00:2022-01-04T00:30:42.5093941+03:00:Thread#0:T:-> Loading plugin C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecRun.Runtime.SpecFlowPlugin.dll
+2022-01-04T00:30:42.5188883+03:00:2022-01-04T00:30:42.5185128+03:00:Thread#0:T:-> Using default config
+2022-01-04T00:30:42.5249404+03:00:2022-01-04T00:30:42.5244997+03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2022-01-04T00:30:42.5253672+03:00:2022-01-04T00:30:42.5251676+03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2022-01-04T00:30:42.5260996+03:00:2022-01-04T00:30:42.5257864+03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Olcay\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2022-01-04T00:30:42.5274608+03:00:2022-01-04T00:30:42.5270733+03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2022-01-04T00:30:42.5279063+03:00:2022-01-04T00:30:42.5277468+03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2022-01-04T00:30:42.5284084+03:00:2022-01-04T00:30:42.5282286+03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Olcay\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2022-01-04T00:30:42.5324477+03:00:2022-01-04T00:30:42.5319854+03:00:Assembly resolving BusinessAnalytic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:42.5327290+03:00:2022-01-04T00:30:42.5326394+03:00:[AssemblyCache] Trying to resolve 'BusinessAnalytic' from .deps.json file
+2022-01-04T00:30:42.5334513+03:00:2022-01-04T00:30:42.5332268+03:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'BusinessAnalytic', found in dependency map, but unable to resolve a path in ['BusinessAnalytic.dll']
+2022-01-04T00:30:42.5337288+03:00:2022-01-04T00:30:42.5335950+03:00:[AssemblyCache] Could not resolve 'BusinessAnalytic' from .deps.json
+2022-01-04T00:30:42.5357577+03:00:2022-01-04T00:30:42.5351187+03:00:[AssemblyCache] Trying to resolve 'BusinessAnalytic' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.5403409+03:00:2022-01-04T00:30:42.5397497+03:00:[AssemblyCache] Trying to resolve 'BusinessAnalytic' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\BusinessAnalytic.dll'
+2022-01-04T00:30:42.5409389+03:00:2022-01-04T00:30:42.5406561+03:00:[AssemblyCache] Found file 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\BusinessAnalytic.dll' for assembly 'BusinessAnalytic'
+2022-01-04T00:30:42.5417668+03:00:2022-01-04T00:30:42.5415932+03:00:[AssemblyCache] Resolved 'BusinessAnalytic' to C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\BusinessAnalytic.dll
+2022-01-04T00:30:42.5446760+03:00:2022-01-04T00:30:42.5443630+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-04T00:30:42.5450767+03:00:2022-01-04T00:30:42.5449340+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2022-01-04T00:30:42.5456758+03:00:2022-01-04T00:30:42.5455606+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Olcay\.nuget\packages\microsoft.testplatform.objectmodel\17.0.0\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2022-01-04T00:30:42.5661045+03:00:2022-01-04T00:30:42.5651041+03:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2022-01-04T00:30:42.5667156+03:00:2022-01-04T00:30:42.5664297+03:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2022-01-04T00:30:42.5673989+03:00:2022-01-04T00:30:42.5670465+03:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\Olcay\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2022-01-04T00:30:42.6228554+03:00:Thread#0: Test #4/0 is started on thread #0
+2022-01-04T00:30:42.6334670+03:00:2022-01-04T00:30:42.6327272+03:00:Thread#0:B:Given Customer have Person,Store and Territory
+2022-01-04T00:30:42.6428003+03:00:2022-01-04T00:30:42.6420578+03:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=5.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6435844+03:00:2022-01-04T00:30:42.6431823+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore' from .deps.json file
+2022-01-04T00:30:42.6447096+03:00:2022-01-04T00:30:42.6442019+03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore' to 'C:\Users\Olcay\.nuget\packages\microsoft.entityframeworkcore\5.0.12\lib\netstandard2.1\Microsoft.EntityFrameworkCore.dll'
+2022-01-04T00:30:42.6488573+03:00:2022-01-04T00:30:42.6478990+03:00:Assembly resolving Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6495865+03:00:2022-01-04T00:30:42.6493367+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' from .deps.json file
+2022-01-04T00:30:42.6499214+03:00:2022-01-04T00:30:42.6497987+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' from .deps.json
+2022-01-04T00:30:42.6501718+03:00:2022-01-04T00:30:42.6500622+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6504315+03:00:2022-01-04T00:30:42.6502978+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2022-01-04T00:30:42.6509701+03:00:2022-01-04T00:30:42.6507862+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.exe'
+2022-01-04T00:30:42.6513706+03:00:2022-01-04T00:30:42.6512204+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6521411+03:00:2022-01-04T00:30:42.6519828+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6530166+03:00:2022-01-04T00:30:42.6527984+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6532948+03:00:2022-01-04T00:30:42.6531491+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6535343+03:00:2022-01-04T00:30:42.6534358+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2022-01-04T00:30:42.6538118+03:00:2022-01-04T00:30:42.6537118+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.exe'
+2022-01-04T00:30:42.6539987+03:00:2022-01-04T00:30:42.6539097+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6545202+03:00:2022-01-04T00:30:42.6543903+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6547489+03:00:2022-01-04T00:30:42.6546512+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6549143+03:00:2022-01-04T00:30:42.6548275+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6550999+03:00:2022-01-04T00:30:42.6549827+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2022-01-04T00:30:42.6554335+03:00:2022-01-04T00:30:42.6552929+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.exe'
+2022-01-04T00:30:42.6557042+03:00:2022-01-04T00:30:42.6555641+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6560988+03:00:2022-01-04T00:30:42.6558293+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6564893+03:00:2022-01-04T00:30:42.6562990+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6567405+03:00:2022-01-04T00:30:42.6566220+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6569218+03:00:2022-01-04T00:30:42.6568266+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2022-01-04T00:30:42.6571804+03:00:2022-01-04T00:30:42.6570703+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.Abstractions.exe'
+2022-01-04T00:30:42.6574524+03:00:2022-01-04T00:30:42.6572885+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.DependencyInjection.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6617765+03:00:2022-01-04T00:30:42.6612892+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.6621297+03:00:2022-01-04T00:30:42.6619779+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.DependencyInjection.Abstractions.dll'
+2022-01-04T00:30:42.6624339+03:00:2022-01-04T00:30:42.6622896+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.DependencyInjection.Abstractions.dll' for assembly 'Microsoft.Extensions.DependencyInjection.Abstractions'
+2022-01-04T00:30:42.6629385+03:00:2022-01-04T00:30:42.6627654+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+2022-01-04T00:30:42.6671270+03:00:2022-01-04T00:30:42.6666862+03:00:Assembly resolving Microsoft.Extensions.DependencyInjection, Version=5.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6676190+03:00:2022-01-04T00:30:42.6673604+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyInjection' from .deps.json file
+2022-01-04T00:30:42.6682149+03:00:2022-01-04T00:30:42.6680494+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyInjection' to 'C:\Users\Olcay\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.2\lib\net5.0\Microsoft.Extensions.DependencyInjection.dll'
+2022-01-04T00:30:42.6707409+03:00:2022-01-04T00:30:42.6699962+03:00:Assembly resolving Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6710505+03:00:2022-01-04T00:30:42.6709407+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' from .deps.json file
+2022-01-04T00:30:42.6713108+03:00:2022-01-04T00:30:42.6711299+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging.Abstractions' from .deps.json
+2022-01-04T00:30:42.6715784+03:00:2022-01-04T00:30:42.6714491+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6717850+03:00:2022-01-04T00:30:42.6716639+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2022-01-04T00:30:42.6720495+03:00:2022-01-04T00:30:42.6719629+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.exe'
+2022-01-04T00:30:42.6722921+03:00:2022-01-04T00:30:42.6721984+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6724686+03:00:2022-01-04T00:30:42.6723955+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6726309+03:00:2022-01-04T00:30:42.6725480+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6727705+03:00:2022-01-04T00:30:42.6726944+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6729091+03:00:2022-01-04T00:30:42.6728294+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2022-01-04T00:30:42.6731375+03:00:2022-01-04T00:30:42.6730387+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.exe'
+2022-01-04T00:30:42.6733852+03:00:2022-01-04T00:30:42.6732601+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6736665+03:00:2022-01-04T00:30:42.6735344+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6738340+03:00:2022-01-04T00:30:42.6737507+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6739639+03:00:2022-01-04T00:30:42.6738909+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6740913+03:00:2022-01-04T00:30:42.6740179+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2022-01-04T00:30:42.6742923+03:00:2022-01-04T00:30:42.6742034+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.exe'
+2022-01-04T00:30:42.6745573+03:00:2022-01-04T00:30:42.6744332+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6747285+03:00:2022-01-04T00:30:42.6746566+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6748916+03:00:2022-01-04T00:30:42.6748230+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6750811+03:00:2022-01-04T00:30:42.6749743+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6753053+03:00:2022-01-04T00:30:42.6752101+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.dll'
+2022-01-04T00:30:42.6755702+03:00:2022-01-04T00:30:42.6754756+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.Abstractions.exe'
+2022-01-04T00:30:42.6758241+03:00:2022-01-04T00:30:42.6756674+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6763548+03:00:2022-01-04T00:30:42.6762234+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.6765565+03:00:2022-01-04T00:30:42.6764641+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.Abstractions.dll'
+2022-01-04T00:30:42.6768070+03:00:2022-01-04T00:30:42.6766961+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.Abstractions.dll' for assembly 'Microsoft.Extensions.Logging.Abstractions'
+2022-01-04T00:30:42.6775185+03:00:2022-01-04T00:30:42.6773508+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.Abstractions.dll
+2022-01-04T00:30:42.6852162+03:00:2022-01-04T00:30:42.6848379+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Abstractions, Version=5.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6855198+03:00:2022-01-04T00:30:42.6854227+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Abstractions' from .deps.json file
+2022-01-04T00:30:42.6858291+03:00:2022-01-04T00:30:42.6857243+03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.Abstractions' to 'C:\Users\Olcay\.nuget\packages\microsoft.entityframeworkcore.abstractions\5.0.12\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Abstractions.dll'
+2022-01-04T00:30:42.6865271+03:00:2022-01-04T00:30:42.6863974+03:00:Assembly resolving Microsoft.Extensions.Caching.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.6866554+03:00:2022-01-04T00:30:42.6865836+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' from .deps.json file
+2022-01-04T00:30:42.6867978+03:00:2022-01-04T00:30:42.6867089+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Abstractions' from .deps.json
+2022-01-04T00:30:42.6869340+03:00:2022-01-04T00:30:42.6868652+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6870607+03:00:2022-01-04T00:30:42.6869907+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll'
+2022-01-04T00:30:42.6872537+03:00:2022-01-04T00:30:42.6871718+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.exe'
+2022-01-04T00:30:42.6874431+03:00:2022-01-04T00:30:42.6873534+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.6876232+03:00:2022-01-04T00:30:42.6875448+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6877988+03:00:2022-01-04T00:30:42.6877152+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6879445+03:00:2022-01-04T00:30:42.6878738+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6880818+03:00:2022-01-04T00:30:42.6880003+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.dll'
+2022-01-04T00:30:42.6882831+03:00:2022-01-04T00:30:42.6881905+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.exe'
+2022-01-04T00:30:42.6884618+03:00:2022-01-04T00:30:42.6883813+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.6886219+03:00:2022-01-04T00:30:42.6885379+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6887468+03:00:2022-01-04T00:30:42.6886833+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6888687+03:00:2022-01-04T00:30:42.6888039+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6889901+03:00:2022-01-04T00:30:42.6889218+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.dll'
+2022-01-04T00:30:42.6891786+03:00:2022-01-04T00:30:42.6890865+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.exe'
+2022-01-04T00:30:42.6894977+03:00:2022-01-04T00:30:42.6893124+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6898562+03:00:2022-01-04T00:30:42.6897798+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.6900332+03:00:2022-01-04T00:30:42.6899312+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.6902221+03:00:2022-01-04T00:30:42.6901195+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6904049+03:00:2022-01-04T00:30:42.6903048+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.dll'
+2022-01-04T00:30:42.6907416+03:00:2022-01-04T00:30:42.6905703+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Abstractions.exe'
+2022-01-04T00:30:42.6911560+03:00:2022-01-04T00:30:42.6909373+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.6917908+03:00:2022-01-04T00:30:42.6915930+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.6919978+03:00:2022-01-04T00:30:42.6918940+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Abstractions.dll'
+2022-01-04T00:30:42.6922260+03:00:2022-01-04T00:30:42.6921384+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Abstractions.dll' for assembly 'Microsoft.Extensions.Caching.Abstractions'
+2022-01-04T00:30:42.6927868+03:00:2022-01-04T00:30:42.6926492+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Abstractions.dll
+2022-01-04T00:30:42.7595619+03:00:2022-01-04T00:30:42.7590900+03:00:Assembly resolving Microsoft.EntityFrameworkCore, Version=5.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.7621820+03:00:2022-01-04T00:30:42.7619056+03:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer, Version=5.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.7626719+03:00:2022-01-04T00:30:42.7624248+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer' from .deps.json file
+2022-01-04T00:30:42.7632869+03:00:2022-01-04T00:30:42.7630262+03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.SqlServer' to 'C:\Users\Olcay\.nuget\packages\microsoft.entityframeworkcore.sqlserver\5.0.12\lib\netstandard2.1\Microsoft.EntityFrameworkCore.SqlServer.dll'
+2022-01-04T00:30:42.7647491+03:00:2022-01-04T00:30:42.7644607+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational, Version=5.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.7651626+03:00:2022-01-04T00:30:42.7649273+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational' from .deps.json file
+2022-01-04T00:30:42.7656887+03:00:2022-01-04T00:30:42.7654222+03:00:[AssemblyCache] Resolved 'Microsoft.EntityFrameworkCore.Relational' to 'C:\Users\Olcay\.nuget\packages\microsoft.entityframeworkcore.relational\5.0.12\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Relational.dll'
+2022-01-04T00:30:42.7891292+03:00:2022-01-04T00:30:42.7886037+03:00:Assembly resolving Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.7899239+03:00:2022-01-04T00:30:42.7895340+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' from .deps.json file
+2022-01-04T00:30:42.7906225+03:00:2022-01-04T00:30:42.7902295+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging' from .deps.json
+2022-01-04T00:30:42.7911404+03:00:2022-01-04T00:30:42.7908441+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.7918677+03:00:2022-01-04T00:30:42.7914860+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll'
+2022-01-04T00:30:42.7924176+03:00:2022-01-04T00:30:42.7921708+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Logging.exe'
+2022-01-04T00:30:42.7931834+03:00:2022-01-04T00:30:42.7927795+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.7935247+03:00:2022-01-04T00:30:42.7933397+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.7939383+03:00:2022-01-04T00:30:42.7936841+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.7941161+03:00:2022-01-04T00:30:42.7940255+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.7942573+03:00:2022-01-04T00:30:42.7941739+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Logging.dll'
+2022-01-04T00:30:42.7945111+03:00:2022-01-04T00:30:42.7944230+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Logging.exe'
+2022-01-04T00:30:42.7946904+03:00:2022-01-04T00:30:42.7946096+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.7948609+03:00:2022-01-04T00:30:42.7947825+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.7950045+03:00:2022-01-04T00:30:42.7949276+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.7951473+03:00:2022-01-04T00:30:42.7950677+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.7952920+03:00:2022-01-04T00:30:42.7952132+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.dll'
+2022-01-04T00:30:42.7955787+03:00:2022-01-04T00:30:42.7954392+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.exe'
+2022-01-04T00:30:42.7957648+03:00:2022-01-04T00:30:42.7956801+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.7959360+03:00:2022-01-04T00:30:42.7958572+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.7962188+03:00:2022-01-04T00:30:42.7960695+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.7963844+03:00:2022-01-04T00:30:42.7963017+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.7965744+03:00:2022-01-04T00:30:42.7964729+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.dll'
+2022-01-04T00:30:42.7968020+03:00:2022-01-04T00:30:42.7967181+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Logging.exe'
+2022-01-04T00:30:42.7969617+03:00:2022-01-04T00:30:42.7968824+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Logging' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Logging\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.7976538+03:00:2022-01-04T00:30:42.7973710+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.7978390+03:00:2022-01-04T00:30:42.7977630+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Logging' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.dll'
+2022-01-04T00:30:42.7980392+03:00:2022-01-04T00:30:42.7979537+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.dll' for assembly 'Microsoft.Extensions.Logging'
+2022-01-04T00:30:42.7985364+03:00:2022-01-04T00:30:42.7984152+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Logging' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Logging.dll
+2022-01-04T00:30:42.7992312+03:00:2022-01-04T00:30:42.7990637+03:00:Assembly resolving Microsoft.Extensions.Options, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.7994450+03:00:2022-01-04T00:30:42.7993605+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' from .deps.json file
+2022-01-04T00:30:42.7995818+03:00:2022-01-04T00:30:42.7995158+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Options' from .deps.json
+2022-01-04T00:30:42.7997166+03:00:2022-01-04T00:30:42.7996501+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.7998446+03:00:2022-01-04T00:30:42.7997805+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Options.dll'
+2022-01-04T00:30:42.8000628+03:00:2022-01-04T00:30:42.7999556+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Options.exe'
+2022-01-04T00:30:42.8002594+03:00:2022-01-04T00:30:42.8001600+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8004069+03:00:2022-01-04T00:30:42.8003292+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8005450+03:00:2022-01-04T00:30:42.8004790+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8006725+03:00:2022-01-04T00:30:42.8006000+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8008250+03:00:2022-01-04T00:30:42.8007599+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Options.dll'
+2022-01-04T00:30:42.8010464+03:00:2022-01-04T00:30:42.8009661+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Options.exe'
+2022-01-04T00:30:42.8013076+03:00:2022-01-04T00:30:42.8012187+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8015675+03:00:2022-01-04T00:30:42.8014107+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8017360+03:00:2022-01-04T00:30:42.8016578+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8018631+03:00:2022-01-04T00:30:42.8017969+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8019928+03:00:2022-01-04T00:30:42.8019189+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Options.dll'
+2022-01-04T00:30:42.8021735+03:00:2022-01-04T00:30:42.8020960+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Options.exe'
+2022-01-04T00:30:42.8023297+03:00:2022-01-04T00:30:42.8022550+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Options' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8025391+03:00:2022-01-04T00:30:42.8024083+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8027399+03:00:2022-01-04T00:30:42.8026439+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8029695+03:00:2022-01-04T00:30:42.8028163+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8032874+03:00:2022-01-04T00:30:42.8031999+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Options.dll'
+2022-01-04T00:30:42.8035819+03:00:2022-01-04T00:30:42.8034748+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Options.exe'
+2022-01-04T00:30:42.8037497+03:00:2022-01-04T00:30:42.8036656+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Options' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Options\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8041124+03:00:2022-01-04T00:30:42.8040200+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.8042841+03:00:2022-01-04T00:30:42.8042021+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Options' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Options.dll'
+2022-01-04T00:30:42.8044707+03:00:2022-01-04T00:30:42.8043898+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Options.dll' for assembly 'Microsoft.Extensions.Options'
+2022-01-04T00:30:42.8049638+03:00:2022-01-04T00:30:42.8048303+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Options' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Options.dll
+2022-01-04T00:30:42.8112708+03:00:2022-01-04T00:30:42.8108818+03:00:Assembly resolving Microsoft.EntityFrameworkCore, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:42.8118328+03:00:2022-01-04T00:30:42.8116695+03:00:Assembly resolving Microsoft.EntityFrameworkCore.resources, Version=5.0.12.0, Culture=tr-TR, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.8120067+03:00:2022-01-04T00:30:42.8119243+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' from .deps.json file
+2022-01-04T00:30:42.8121656+03:00:2022-01-04T00:30:42.8120789+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' from .deps.json
+2022-01-04T00:30:42.8123500+03:00:2022-01-04T00:30:42.8122469+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8125396+03:00:2022-01-04T00:30:42.8124326+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.resources.dll'
+2022-01-04T00:30:42.8128170+03:00:2022-01-04T00:30:42.8126947+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.resources.exe'
+2022-01-04T00:30:42.8130082+03:00:2022-01-04T00:30:42.8129177+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8131520+03:00:2022-01-04T00:30:42.8130784+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8132955+03:00:2022-01-04T00:30:42.8132231+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8134271+03:00:2022-01-04T00:30:42.8133559+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8135624+03:00:2022-01-04T00:30:42.8134901+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.resources.dll'
+2022-01-04T00:30:42.8137474+03:00:2022-01-04T00:30:42.8136670+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.resources.exe'
+2022-01-04T00:30:42.8139334+03:00:2022-01-04T00:30:42.8138408+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8145232+03:00:2022-01-04T00:30:42.8143311+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.8146669+03:00:2022-01-04T00:30:42.8145939+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.resources.dll'
+2022-01-04T00:30:42.8148482+03:00:2022-01-04T00:30:42.8147596+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.resources.exe'
+2022-01-04T00:30:42.8150655+03:00:2022-01-04T00:30:42.8149841+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.8152692+03:00:2022-01-04T00:30:42.8151922+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:42.8153993+03:00:2022-01-04T00:30:42.8153329+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.resources.dll'
+2022-01-04T00:30:42.8155662+03:00:2022-01-04T00:30:42.8154841+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.resources.exe'
+2022-01-04T00:30:42.8157610+03:00:2022-01-04T00:30:42.8156634+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:42.8161696+03:00:2022-01-04T00:30:42.8160886+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:42.8163505+03:00:2022-01-04T00:30:42.8162466+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.resources.dll'
+2022-01-04T00:30:42.8166507+03:00:2022-01-04T00:30:42.8165474+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.resources.exe'
+2022-01-04T00:30:42.8168409+03:00:2022-01-04T00:30:42.8167535+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:42.8181739+03:00:2022-01-04T00:30:42.8179805+03:00:Assembly resolving Microsoft.EntityFrameworkCore, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:42.8185085+03:00:2022-01-04T00:30:42.8183870+03:00:Assembly resolving Microsoft.EntityFrameworkCore.resources, Version=5.0.12.0, Culture=tr, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.8240394+03:00:2022-01-04T00:30:42.8235849+03:00:Assembly resolving Microsoft.Extensions.Caching.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.8244390+03:00:2022-01-04T00:30:42.8242873+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' from .deps.json file
+2022-01-04T00:30:42.8246424+03:00:2022-01-04T00:30:42.8245399+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Memory' from .deps.json
+2022-01-04T00:30:42.8248650+03:00:2022-01-04T00:30:42.8247330+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8250715+03:00:2022-01-04T00:30:42.8249676+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll'
+2022-01-04T00:30:42.8253323+03:00:2022-01-04T00:30:42.8252465+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.exe'
+2022-01-04T00:30:42.8255796+03:00:2022-01-04T00:30:42.8254694+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8257477+03:00:2022-01-04T00:30:42.8256721+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8259252+03:00:2022-01-04T00:30:42.8258275+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8260715+03:00:2022-01-04T00:30:42.8259945+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8262070+03:00:2022-01-04T00:30:42.8261342+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.dll'
+2022-01-04T00:30:42.8264195+03:00:2022-01-04T00:30:42.8263311+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.exe'
+2022-01-04T00:30:42.8266455+03:00:2022-01-04T00:30:42.8265211+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8268795+03:00:2022-01-04T00:30:42.8267616+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8270734+03:00:2022-01-04T00:30:42.8269947+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8272579+03:00:2022-01-04T00:30:42.8271453+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8274478+03:00:2022-01-04T00:30:42.8273519+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.dll'
+2022-01-04T00:30:42.8276908+03:00:2022-01-04T00:30:42.8275949+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.exe'
+2022-01-04T00:30:42.8279039+03:00:2022-01-04T00:30:42.8278108+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8280701+03:00:2022-01-04T00:30:42.8279830+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8282530+03:00:2022-01-04T00:30:42.8281476+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8284349+03:00:2022-01-04T00:30:42.8283340+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8286109+03:00:2022-01-04T00:30:42.8285242+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.dll'
+2022-01-04T00:30:42.8288107+03:00:2022-01-04T00:30:42.8287257+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Caching.Memory.exe'
+2022-01-04T00:30:42.8289802+03:00:2022-01-04T00:30:42.8288955+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Caching.Memory' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Caching.Memory\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8294040+03:00:2022-01-04T00:30:42.8292526+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.8298326+03:00:2022-01-04T00:30:42.8297394+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Caching.Memory' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Memory.dll'
+2022-01-04T00:30:42.8301241+03:00:2022-01-04T00:30:42.8299839+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Memory.dll' for assembly 'Microsoft.Extensions.Caching.Memory'
+2022-01-04T00:30:42.8308582+03:00:2022-01-04T00:30:42.8306951+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Caching.Memory' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Caching.Memory.dll
+2022-01-04T00:30:42.8315383+03:00:2022-01-04T00:30:42.8313964+03:00:Assembly resolving Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:42.8316792+03:00:2022-01-04T00:30:42.8316098+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' from .deps.json file
+2022-01-04T00:30:42.8318415+03:00:2022-01-04T00:30:42.8317578+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Primitives' from .deps.json
+2022-01-04T00:30:42.8320071+03:00:2022-01-04T00:30:42.8319076+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8321586+03:00:2022-01-04T00:30:42.8320715+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll'
+2022-01-04T00:30:42.8323723+03:00:2022-01-04T00:30:42.8322889+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Primitives.exe'
+2022-01-04T00:30:42.8325389+03:00:2022-01-04T00:30:42.8324584+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:42.8326830+03:00:2022-01-04T00:30:42.8326100+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8328362+03:00:2022-01-04T00:30:42.8327572+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8330129+03:00:2022-01-04T00:30:42.8329049+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8332040+03:00:2022-01-04T00:30:42.8330985+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Primitives.dll'
+2022-01-04T00:30:42.8334933+03:00:2022-01-04T00:30:42.8333959+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Primitives.exe'
+2022-01-04T00:30:42.8336924+03:00:2022-01-04T00:30:42.8335969+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:42.8338628+03:00:2022-01-04T00:30:42.8337871+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8340614+03:00:2022-01-04T00:30:42.8339588+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8342262+03:00:2022-01-04T00:30:42.8341401+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8343751+03:00:2022-01-04T00:30:42.8343051+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Primitives.dll'
+2022-01-04T00:30:42.8348726+03:00:2022-01-04T00:30:42.8345384+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Primitives.exe'
+2022-01-04T00:30:42.8351316+03:00:2022-01-04T00:30:42.8349988+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8353197+03:00:2022-01-04T00:30:42.8352130+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:42.8355530+03:00:2022-01-04T00:30:42.8354155+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:42.8357943+03:00:2022-01-04T00:30:42.8356789+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8359758+03:00:2022-01-04T00:30:42.8358932+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Primitives.dll'
+2022-01-04T00:30:42.8362241+03:00:2022-01-04T00:30:42.8361235+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Primitives.exe'
+2022-01-04T00:30:42.8364127+03:00:2022-01-04T00:30:42.8363169+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Primitives' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Primitives\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:42.8371577+03:00:2022-01-04T00:30:42.8367715+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:42.8376022+03:00:2022-01-04T00:30:42.8373653+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Primitives.dll'
+2022-01-04T00:30:42.8379019+03:00:2022-01-04T00:30:42.8377655+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Primitives.dll' for assembly 'Microsoft.Extensions.Primitives'
+2022-01-04T00:30:42.8384944+03:00:2022-01-04T00:30:42.8383471+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Primitives' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Primitives.dll
+2022-01-04T00:30:43.5023328+03:00:2022-01-04T00:30:43.5018321+03:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.5029210+03:00:2022-01-04T00:30:43.5027418+03:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer.resources, Version=5.0.12.0, Culture=tr-TR, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:43.5032604+03:00:2022-01-04T00:30:43.5030385+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' from .deps.json file
+2022-01-04T00:30:43.5035728+03:00:2022-01-04T00:30:43.5033596+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' from .deps.json
+2022-01-04T00:30:43.5037825+03:00:2022-01-04T00:30:43.5036737+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.5039388+03:00:2022-01-04T00:30:43.5038503+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.resources.dll'
+2022-01-04T00:30:43.5041485+03:00:2022-01-04T00:30:43.5040743+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.resources.exe'
+2022-01-04T00:30:43.5043257+03:00:2022-01-04T00:30:43.5042421+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.5044989+03:00:2022-01-04T00:30:43.5043984+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.5046794+03:00:2022-01-04T00:30:43.5045881+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.5048275+03:00:2022-01-04T00:30:43.5047514+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.5049891+03:00:2022-01-04T00:30:43.5049023+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.SqlServer.resources.dll'
+2022-01-04T00:30:43.5052147+03:00:2022-01-04T00:30:43.5051177+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.SqlServer.resources.exe'
+2022-01-04T00:30:43.5054078+03:00:2022-01-04T00:30:43.5053290+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.5058735+03:00:2022-01-04T00:30:43.5057722+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.5060376+03:00:2022-01-04T00:30:43.5059604+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.dll'
+2022-01-04T00:30:43.5062482+03:00:2022-01-04T00:30:43.5061675+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.exe'
+2022-01-04T00:30:43.5064423+03:00:2022-01-04T00:30:43.5063624+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.5066852+03:00:2022-01-04T00:30:43.5066182+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.5068099+03:00:2022-01-04T00:30:43.5067548+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.dll'
+2022-01-04T00:30:43.5069872+03:00:2022-01-04T00:30:43.5069086+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.exe'
+2022-01-04T00:30:43.5071805+03:00:2022-01-04T00:30:43.5070969+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.5074131+03:00:2022-01-04T00:30:43.5073355+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.5075530+03:00:2022-01-04T00:30:43.5074837+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.dll'
+2022-01-04T00:30:43.5077296+03:00:2022-01-04T00:30:43.5076459+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.SqlServer.resources.exe'
+2022-01-04T00:30:43.5081616+03:00:2022-01-04T00:30:43.5080465+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.SqlServer.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.5088962+03:00:2022-01-04T00:30:43.5087447+03:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.5091826+03:00:2022-01-04T00:30:43.5090963+03:00:Assembly resolving Microsoft.EntityFrameworkCore.SqlServer.resources, Version=5.0.12.0, Culture=tr, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:43.5647199+03:00:2022-01-04T00:30:43.5641464+03:00:Assembly resolving Microsoft.Extensions.Configuration.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:43.5652584+03:00:2022-01-04T00:30:43.5650474+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' from .deps.json file
+2022-01-04T00:30:43.5656539+03:00:2022-01-04T00:30:43.5654614+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Configuration.Abstractions' from .deps.json
+2022-01-04T00:30:43.5658957+03:00:2022-01-04T00:30:43.5657521+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.5660630+03:00:2022-01-04T00:30:43.5659978+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll'
+2022-01-04T00:30:43.5663467+03:00:2022-01-04T00:30:43.5662498+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.exe'
+2022-01-04T00:30:43.5665603+03:00:2022-01-04T00:30:43.5664427+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.5667340+03:00:2022-01-04T00:30:43.5666556+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.5669010+03:00:2022-01-04T00:30:43.5668219+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.5670531+03:00:2022-01-04T00:30:43.5669739+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.5671913+03:00:2022-01-04T00:30:43.5671207+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.dll'
+2022-01-04T00:30:43.5674439+03:00:2022-01-04T00:30:43.5673372+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.exe'
+2022-01-04T00:30:43.5676917+03:00:2022-01-04T00:30:43.5675987+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.5679740+03:00:2022-01-04T00:30:43.5677911+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.5681663+03:00:2022-01-04T00:30:43.5680778+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.5683114+03:00:2022-01-04T00:30:43.5682473+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:43.5685379+03:00:2022-01-04T00:30:43.5684474+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.dll'
+2022-01-04T00:30:43.5690180+03:00:2022-01-04T00:30:43.5689368+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.exe'
+2022-01-04T00:30:43.5692337+03:00:2022-01-04T00:30:43.5691528+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Users\Olcay\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:43.5696261+03:00:2022-01-04T00:30:43.5694106+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.5700243+03:00:2022-01-04T00:30:43.5698134+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.5704277+03:00:2022-01-04T00:30:43.5701722+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:43.5707852+03:00:2022-01-04T00:30:43.5705927+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.dll'
+2022-01-04T00:30:43.5711007+03:00:2022-01-04T00:30:43.5709802+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0\Microsoft.Extensions.Configuration.Abstractions.exe'
+2022-01-04T00:30:43.5714052+03:00:2022-01-04T00:30:43.5712481+03:00:[AssemblyCache] Could not resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'D:\Microsoft Visual Studio\Shared\NuGetPackages\Microsoft.Extensions.Configuration.Abstractions\5.0.0\lib\netcoreapp5.0'
+2022-01-04T00:30:43.5722976+03:00:2022-01-04T00:30:43.5720568+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.5725620+03:00:2022-01-04T00:30:43.5724543+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Configuration.Abstractions.dll'
+2022-01-04T00:30:43.5729551+03:00:2022-01-04T00:30:43.5728269+03:00:[AssemblyCache] Found file 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Configuration.Abstractions.dll' for assembly 'Microsoft.Extensions.Configuration.Abstractions'
+2022-01-04T00:30:43.5737704+03:00:2022-01-04T00:30:43.5736403+03:00:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration.Abstractions' to C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Extensions.Configuration.Abstractions.dll
+2022-01-04T00:30:43.5899383+03:00:2022-01-04T00:30:43.5894681+03:00:Thread#0:T:done: CustomerSteps.GivenCustomerHavePersonStoreAndTerritory() (0,9s)
+2022-01-04T00:30:43.5909910+03:00:2022-01-04T00:30:43.5907949+03:00:Thread#0:B:Then the Customer result should be true
+2022-01-04T00:30:43.5935363+03:00:2022-01-04T00:30:43.5932880+03:00:Assembly resolving FluentAssertions, Version=6.2.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2022-01-04T00:30:43.5937871+03:00:2022-01-04T00:30:43.5936805+03:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2022-01-04T00:30:43.5945283+03:00:2022-01-04T00:30:43.5943078+03:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\Olcay\.nuget\packages\fluentassertions\6.2.0\lib\netcoreapp3.0\FluentAssertions.dll'
+2022-01-04T00:30:43.6021210+03:00:2022-01-04T00:30:43.6017739+03:00:Thread#0:T:done: CustomerSteps.ThenTheCustomerResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:43.6093001+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:43.6093402+03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2022-01-04T00:30:43.6093419+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2022-01-04T00:30:43.6094127+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:43.6094158+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:43.6094170+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:43.6094186+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2022-01-04T00:30:43.6094445+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2022-01-04T00:30:43.6094579+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:43.6355415+03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1,011776 seconds
+2022-01-04T00:30:43.6376518+03:00:Thread#0: Test #5/0 is started on thread #0
+2022-01-04T00:30:43.6390180+03:00:2022-01-04T00:30:43.6387796+03:00:Thread#0:B:Given Customer Id is 2
+2022-01-04T00:30:43.6403840+03:00:2022-01-04T00:30:43.6402662+03:00:Thread#0:T:done: CustomerSteps.GivenCustomerIdİs(2) (0,0s)
+2022-01-04T00:30:43.6407273+03:00:2022-01-04T00:30:43.6406514+03:00:Thread#0:B:When Find Customer detail
+2022-01-04T00:30:43.6713225+03:00:2022-01-04T00:30:43.6709770+03:00:Assembly resolving Microsoft.Data.SqlClient, Version=2.0.20168.4, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5
+2022-01-04T00:30:43.6716124+03:00:2022-01-04T00:30:43.6715091+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient' from .deps.json file
+2022-01-04T00:30:43.6722886+03:00:2022-01-04T00:30:43.6720117+03:00:[AssemblyCache] Resolved 'Microsoft.Data.SqlClient' to 'C:\Users\Olcay\.nuget\packages\microsoft.data.sqlclient\2.0.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll'
+2022-01-04T00:30:43.8232644+03:00:2022-01-04T00:30:43.8228234+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8239160+03:00:2022-01-04T00:30:43.8237879+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational.resources, Version=5.0.12.0, Culture=tr-TR, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:43.8243551+03:00:2022-01-04T00:30:43.8241108+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' from .deps.json file
+2022-01-04T00:30:43.8247478+03:00:2022-01-04T00:30:43.8245964+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' from .deps.json
+2022-01-04T00:30:43.8251094+03:00:2022-01-04T00:30:43.8249550+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.8253682+03:00:2022-01-04T00:30:43.8252159+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+2022-01-04T00:30:43.8256038+03:00:2022-01-04T00:30:43.8255348+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.resources.exe'
+2022-01-04T00:30:43.8257548+03:00:2022-01-04T00:30:43.8256902+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.8259024+03:00:2022-01-04T00:30:43.8258049+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.8260452+03:00:2022-01-04T00:30:43.8259673+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.8261760+03:00:2022-01-04T00:30:43.8260999+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.8263355+03:00:2022-01-04T00:30:43.8262629+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+2022-01-04T00:30:43.8265378+03:00:2022-01-04T00:30:43.8264617+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.resources.exe'
+2022-01-04T00:30:43.8267656+03:00:2022-01-04T00:30:43.8266907+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.8273348+03:00:2022-01-04T00:30:43.8272036+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.8274649+03:00:2022-01-04T00:30:43.8274097+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+2022-01-04T00:30:43.8279703+03:00:2022-01-04T00:30:43.8276971+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.exe'
+2022-01-04T00:30:43.8285031+03:00:2022-01-04T00:30:43.8283421+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.8289598+03:00:2022-01-04T00:30:43.8287517+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.8291951+03:00:2022-01-04T00:30:43.8290664+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+2022-01-04T00:30:43.8294585+03:00:2022-01-04T00:30:43.8293336+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.exe'
+2022-01-04T00:30:43.8297228+03:00:2022-01-04T00:30:43.8296057+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.8300053+03:00:2022-01-04T00:30:43.8298941+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.8301653+03:00:2022-01-04T00:30:43.8300689+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+2022-01-04T00:30:43.8303676+03:00:2022-01-04T00:30:43.8302581+03:00:[AssemblyCache] Trying to resolve 'Microsoft.EntityFrameworkCore.Relational.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.EntityFrameworkCore.Relational.resources.exe'
+2022-01-04T00:30:43.8305273+03:00:2022-01-04T00:30:43.8304509+03:00:[AssemblyCache] Could not resolve 'Microsoft.EntityFrameworkCore.Relational.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.8311010+03:00:2022-01-04T00:30:43.8309806+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8312783+03:00:2022-01-04T00:30:43.8312156+03:00:Assembly resolving Microsoft.EntityFrameworkCore.Relational.resources, Version=5.0.12.0, Culture=tr, PublicKeyToken=adb9793829ddae60
+2022-01-04T00:30:43.8454824+03:00:2022-01-04T00:30:43.8451116+03:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8460027+03:00:2022-01-04T00:30:43.8458791+03:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=tr-TR, PublicKeyToken=23ec7fc2d6eaa4a5
+2022-01-04T00:30:43.8462312+03:00:2022-01-04T00:30:43.8461209+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' from .deps.json file
+2022-01-04T00:30:43.8465498+03:00:2022-01-04T00:30:43.8464242+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' from .deps.json
+2022-01-04T00:30:43.8466857+03:00:2022-01-04T00:30:43.8466129+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.8467855+03:00:2022-01-04T00:30:43.8467343+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Data.SqlClient.resources.dll'
+2022-01-04T00:30:43.8469564+03:00:2022-01-04T00:30:43.8468812+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\Microsoft.Data.SqlClient.resources.exe'
+2022-01-04T00:30:43.8473781+03:00:2022-01-04T00:30:43.8471783+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:43.8476125+03:00:2022-01-04T00:30:43.8474866+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:43.8477931+03:00:2022-01-04T00:30:43.8477023+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:43.8479294+03:00:2022-01-04T00:30:43.8478548+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.8481011+03:00:2022-01-04T00:30:43.8480457+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Data.SqlClient.resources.dll'
+2022-01-04T00:30:43.8484901+03:00:2022-01-04T00:30:43.8483049+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\Microsoft.Data.SqlClient.resources.exe'
+2022-01-04T00:30:43.8487586+03:00:2022-01-04T00:30:43.8486592+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:43.8493930+03:00:2022-01-04T00:30:43.8492567+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.8495399+03:00:2022-01-04T00:30:43.8494638+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Data.SqlClient.resources.dll'
+2022-01-04T00:30:43.8497201+03:00:2022-01-04T00:30:43.8496446+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\Microsoft.Data.SqlClient.resources.exe'
+2022-01-04T00:30:43.8498963+03:00:2022-01-04T00:30:43.8498190+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:43.8501154+03:00:2022-01-04T00:30:43.8500390+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.8502857+03:00:2022-01-04T00:30:43.8501956+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.Data.SqlClient.resources.dll'
+2022-01-04T00:30:43.8504559+03:00:2022-01-04T00:30:43.8503862+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\Microsoft.Data.SqlClient.resources.exe'
+2022-01-04T00:30:43.8506233+03:00:2022-01-04T00:30:43.8505585+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:43.8508423+03:00:2022-01-04T00:30:43.8507686+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.8509907+03:00:2022-01-04T00:30:43.8509065+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.Data.SqlClient.resources.dll'
+2022-01-04T00:30:43.8511850+03:00:2022-01-04T00:30:43.8510972+03:00:[AssemblyCache] Trying to resolve 'Microsoft.Data.SqlClient.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\Microsoft.Data.SqlClient.resources.exe'
+2022-01-04T00:30:43.8514133+03:00:2022-01-04T00:30:43.8513086+03:00:[AssemblyCache] Could not resolve 'Microsoft.Data.SqlClient.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:43.8524999+03:00:2022-01-04T00:30:43.8522732+03:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8529329+03:00:2022-01-04T00:30:43.8528038+03:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=tr, PublicKeyToken=23ec7fc2d6eaa4a5
+2022-01-04T00:30:43.8544947+03:00:2022-01-04T00:30:43.8543136+03:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8548020+03:00:2022-01-04T00:30:43.8547096+03:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=tr-TR, PublicKeyToken=23ec7fc2d6eaa4a5
+2022-01-04T00:30:43.8551551+03:00:2022-01-04T00:30:43.8550479+03:00:Assembly resolving Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null
+2022-01-04T00:30:43.8554438+03:00:2022-01-04T00:30:43.8553120+03:00:Assembly resolving Microsoft.Data.SqlClient.resources, Version=2.0.20168.4, Culture=tr, PublicKeyToken=23ec7fc2d6eaa4a5
+2022-01-04T00:30:43.8737342+03:00:2022-01-04T00:30:43.8733620+03:00:Assembly resolving System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2022-01-04T00:30:43.8740214+03:00:2022-01-04T00:30:43.8739332+03:00:[AssemblyCache] Trying to resolve 'System.Configuration.ConfigurationManager' from .deps.json file
+2022-01-04T00:30:43.8744066+03:00:2022-01-04T00:30:43.8743000+03:00:[AssemblyCache] Resolved 'System.Configuration.ConfigurationManager' to 'C:\Users\Olcay\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll'
+2022-01-04T00:30:44.5700105+03:00:2022-01-04T00:30:44.5695708+03:00:Thread#0:T:done: CustomerSteps.WhenFindCustomerDetail() (0,9s)
+2022-01-04T00:30:44.5706122+03:00:2022-01-04T00:30:44.5703704+03:00:Thread#0:B:Then the Customer result should be true
+2022-01-04T00:30:44.5711560+03:00:2022-01-04T00:30:44.5709388+03:00:Thread#0:T:done: CustomerSteps.ThenTheCustomerResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:44.5721004+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:44.5721122+03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2022-01-04T00:30:44.5721137+03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2022-01-04T00:30:44.5721431+03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:44.5721449+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:44.5721457+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:44.5721465+03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2022-01-04T00:30:44.5721606+03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2022-01-04T00:30:44.5721664+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:44.5743495+03:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,936651 seconds
+2022-01-04T00:30:44.5750480+03:00:Thread#0: Test #7/0 is started on thread #0
+2022-01-04T00:30:44.5768967+03:00:2022-01-04T00:30:44.5765995+03:00:Thread#0:B:Given Employee have BusinessEntity
+2022-01-04T00:30:44.5837703+03:00:2022-01-04T00:30:44.5833437+03:00:Thread#0:T:done: EmployeesSteps.GivenEmployeeHaveBusinessEntity() (0,0s)
+2022-01-04T00:30:44.5844852+03:00:2022-01-04T00:30:44.5841780+03:00:Thread#0:B:Then the Employee result should be true
+2022-01-04T00:30:44.5861840+03:00:2022-01-04T00:30:44.5858887+03:00:Thread#0:T:done: EmployeesSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:44.5872121+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:44.5872274+03:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2022-01-04T00:30:44.5872299+03:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2022-01-04T00:30:44.5872661+03:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:44.5872692+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:44.5872700+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:44.5872707+03:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2022-01-04T00:30:44.5872891+03:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2022-01-04T00:30:44.5873047+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:44.5881942+03:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0,0131267 seconds
+2022-01-04T00:30:44.5885113+03:00:Thread#0: Test #8/0 is started on thread #0
+2022-01-04T00:30:44.5892449+03:00:2022-01-04T00:30:44.5890840+03:00:Thread#0:B:Given Employee Id is 2
+2022-01-04T00:30:44.5937749+03:00:2022-01-04T00:30:44.5934394+03:00:Thread#0:T:done: EmployeesSteps.GivenEmployeeIdIs(2) (0,0s)
+2022-01-04T00:30:44.5942108+03:00:2022-01-04T00:30:44.5940653+03:00:Thread#0:B:When Find Employee detail
+2022-01-04T00:30:44.7667932+03:00:2022-01-04T00:30:44.7663222+03:00:Thread#0:T:done: EmployeesSteps.Details() (0,2s)
+2022-01-04T00:30:44.7675755+03:00:2022-01-04T00:30:44.7673106+03:00:Thread#0:B:Then the Employee result should be true
+2022-01-04T00:30:44.7682518+03:00:2022-01-04T00:30:44.7680253+03:00:Thread#0:T:done: EmployeesSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:44.7694222+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:44.7694334+03:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2022-01-04T00:30:44.7694401+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2022-01-04T00:30:44.7694809+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:44.7694827+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:44.7694835+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:44.7694859+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2022-01-04T00:30:44.7695058+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2022-01-04T00:30:44.7695141+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:44.7704651+03:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0,1819329 seconds
+2022-01-04T00:30:44.7708338+03:00:Thread#0: Test #9/0 is started on thread #0
+2022-01-04T00:30:44.7724889+03:00:2022-01-04T00:30:44.7723319+03:00:Thread#0:B:Given Create Employee
+2022-01-04T00:30:45.0769999+03:00:2022-01-04T00:30:45.0762056+03:00:Thread#0:T:done: EmployeesSteps.Create() (0,3s)
+2022-01-04T00:30:45.0780562+03:00:2022-01-04T00:30:45.0775820+03:00:Thread#0:B:When Check date employee has
+2022-01-04T00:30:45.1350703+03:00:2022-01-04T00:30:45.1344423+03:00:Thread#0:T:done: EmployeesSteps.WhenCheckDateEmployeeHas() (0,1s)
+2022-01-04T00:30:45.1358874+03:00:2022-01-04T00:30:45.1355271+03:00:Thread#0:B:Then the Employee result should be true
+2022-01-04T00:30:45.1371709+03:00:2022-01-04T00:30:45.1367636+03:00:Thread#0:T:done: EmployeesSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:45.1385376+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.1385469+03:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2022-01-04T00:30:45.1385490+03:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2022-01-04T00:30:45.1385646+03:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.1385665+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.1385672+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.1385679+03:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2022-01-04T00:30:45.1385932+03:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2022-01-04T00:30:45.1386051+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.1397812+03:00:Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0,3689118 seconds
+2022-01-04T00:30:45.1406508+03:00:Thread#0: Test #10/0 is started on thread #0
+2022-01-04T00:30:45.1421880+03:00:2022-01-04T00:30:45.1419966+03:00:Thread#0:B:Given Edit EmployeeId is 4 with name is Test Title
+2022-01-04T00:30:45.3467395+03:00:2022-01-04T00:30:45.3463310+03:00:Thread#0:T:done: EmployeesSteps.editEmployee(4, "Test Title") (0,2s)
+2022-01-04T00:30:45.3471481+03:00:2022-01-04T00:30:45.3469924+03:00:Thread#0:B:When Find Employee which name is Test Title and id 4
+2022-01-04T00:30:45.4003369+03:00:2022-01-04T00:30:45.4000096+03:00:Thread#0:T:done: EmployeesSteps.findEmployee("Test Title", 4) (0,1s)
+2022-01-04T00:30:45.4007579+03:00:2022-01-04T00:30:45.4006009+03:00:Thread#0:B:Then the Employee result should be true
+2022-01-04T00:30:45.4012213+03:00:2022-01-04T00:30:45.4010963+03:00:Thread#0:T:done: EmployeesSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:45.4018515+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.4018611+03:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2022-01-04T00:30:45.4018629+03:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2022-01-04T00:30:45.4018824+03:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.4018849+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.4018893+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.4018902+03:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2022-01-04T00:30:45.4019001+03:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2022-01-04T00:30:45.4019067+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.4027691+03:00:Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0,2620997 seconds
+2022-01-04T00:30:45.4035663+03:00:Thread#0: Test #11/0 is started on thread #0
+2022-01-04T00:30:45.4049772+03:00:2022-01-04T00:30:45.4047285+03:00:Thread#0:B:Given Employee Id is 4
+2022-01-04T00:30:45.4057453+03:00:2022-01-04T00:30:45.4055840+03:00:Thread#0:T:done: EmployeesSteps.GivenEmployeeIdIs(4) (0,0s)
+2022-01-04T00:30:45.4060345+03:00:2022-01-04T00:30:45.4059110+03:00:Thread#0:B:When Find Employee
+2022-01-04T00:30:45.4583646+03:00:2022-01-04T00:30:45.4577624+03:00:Thread#0:T:done: EmployeesSteps.WhenFindEmployee() (0,1s)
+2022-01-04T00:30:45.4588935+03:00:2022-01-04T00:30:45.4587539+03:00:Thread#0:B:Then the Employee result should be true
+2022-01-04T00:30:45.4592963+03:00:2022-01-04T00:30:45.4591384+03:00:Thread#0:T:done: EmployeesSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:45.4598093+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.4598180+03:00:Thread#:Scheduler: testitem #13 from normal test queue 
+2022-01-04T00:30:45.4598197+03:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2022-01-04T00:30:45.4598524+03:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.4598583+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.4598591+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.4598598+03:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2022-01-04T00:30:45.4598682+03:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2022-01-04T00:30:45.4598750+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.4612053+03:00:Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0,0575711 seconds
+2022-01-04T00:30:45.4616551+03:00:Thread#0: Test #13/0 is started on thread #0
+2022-01-04T00:30:45.4627293+03:00:2022-01-04T00:30:45.4626078+03:00:Thread#0:B:Given username is yunus
+2022-01-04T00:30:45.4643096+03:00:2022-01-04T00:30:45.4641446+03:00:Thread#0:T:done: LoginSteps.GivenUsernameIsYunus("yunus") (0,0s)
+2022-01-04T00:30:45.4648282+03:00:2022-01-04T00:30:45.4646845+03:00:Thread#0:B:And password is 123
+2022-01-04T00:30:45.4657928+03:00:2022-01-04T00:30:45.4656765+03:00:Thread#0:T:done: LoginSteps.GivenPasswordIs("123") (0,0s)
+2022-01-04T00:30:45.4660203+03:00:2022-01-04T00:30:45.4659320+03:00:Thread#0:B:When try to login
+2022-01-04T00:30:45.5246740+03:00:2022-01-04T00:30:45.5241599+03:00:Thread#0:T:done: LoginSteps.WhenTryToLogin() (0,1s)
+2022-01-04T00:30:45.5253980+03:00:2022-01-04T00:30:45.5252102+03:00:Thread#0:B:Then should be true
+2022-01-04T00:30:45.5264121+03:00:2022-01-04T00:30:45.5261917+03:00:Thread#0:T:done: LoginSteps.ThenShouldBe(True) (0,0s)
+2022-01-04T00:30:45.5275501+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.5275702+03:00:Thread#:Scheduler: testitem #14 from normal test queue 
+2022-01-04T00:30:45.5275943+03:00:Thread#0:Scheduler: considering testitem #14 for thread 0
+2022-01-04T00:30:45.5276227+03:00:Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.5276250+03:00:Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.5276257+03:00:Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.5276264+03:00:Thread#0:Scheduler: using testitem #14 for thread 0
+2022-01-04T00:30:45.5276410+03:00:Thread#0:Scheduler: Test #14 is scheduled for thread
+2022-01-04T00:30:45.5276484+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.5290466+03:00:Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 0,0673728 seconds
+2022-01-04T00:30:45.5295746+03:00:Thread#0: Test #14/0 is started on thread #0
+2022-01-04T00:30:45.5305024+03:00:2022-01-04T00:30:45.5303530+03:00:Thread#0:B:Given username is olcay
+2022-01-04T00:30:45.5316650+03:00:2022-01-04T00:30:45.5314640+03:00:Thread#0:T:done: LoginSteps.GivenUsernameIsYunus("olcay") (0,0s)
+2022-01-04T00:30:45.5321587+03:00:2022-01-04T00:30:45.5319048+03:00:Thread#0:B:And password is 1234
+2022-01-04T00:30:45.5329236+03:00:2022-01-04T00:30:45.5326826+03:00:Thread#0:T:done: LoginSteps.GivenPasswordIs("1234") (0,0s)
+2022-01-04T00:30:45.5332656+03:00:2022-01-04T00:30:45.5331046+03:00:Thread#0:B:When try to login
+2022-01-04T00:30:45.5822832+03:00:2022-01-04T00:30:45.5817781+03:00:Thread#0:T:done: LoginSteps.WhenTryToLogin() (0,0s)
+2022-01-04T00:30:45.5830382+03:00:2022-01-04T00:30:45.5827577+03:00:Thread#0:B:Then should be false
+2022-01-04T00:30:45.5836523+03:00:2022-01-04T00:30:45.5834477+03:00:Thread#0:T:done: LoginSteps.ThenShouldBe(False) (0,0s)
+2022-01-04T00:30:45.5849098+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.5849267+03:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2022-01-04T00:30:45.5849295+03:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2022-01-04T00:30:45.5850076+03:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.5850119+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.5850129+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.5850141+03:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2022-01-04T00:30:45.5850456+03:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2022-01-04T00:30:45.5850583+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.5873244+03:00:Thread#0: Test #14/0 is finished on thread #0 as Succeeded within 0,0577274 seconds
+2022-01-04T00:30:45.5879656+03:00:Thread#0: Test #15/0 is started on thread #0
+2022-01-04T00:30:45.5890454+03:00:2022-01-04T00:30:45.5888955+03:00:Thread#0:B:Given Register username is Test
+2022-01-04T00:30:45.5900683+03:00:2022-01-04T00:30:45.5899237+03:00:Thread#0:T:done: LoginSteps.GivenRegisterUsernameİsTest("Test") (0,0s)
+2022-01-04T00:30:45.5906079+03:00:2022-01-04T00:30:45.5904099+03:00:Thread#0:B:And Register password is Test
+2022-01-04T00:30:45.7483592+03:00:2022-01-04T00:30:45.7477055+03:00:Thread#0:T:done: LoginSteps.GivenRegisterPasswordİsTest("Test") (0,2s)
+2022-01-04T00:30:45.7496658+03:00:2022-01-04T00:30:45.7489705+03:00:Thread#0:B:When try to login
+2022-01-04T00:30:45.7986036+03:00:2022-01-04T00:30:45.7982676+03:00:Thread#0:T:done: LoginSteps.WhenTryToLogin() (0,0s)
+2022-01-04T00:30:45.7991008+03:00:2022-01-04T00:30:45.7989574+03:00:Thread#0:B:Then should be true
+2022-01-04T00:30:45.7995554+03:00:2022-01-04T00:30:45.7994506+03:00:Thread#0:T:done: LoginSteps.ThenShouldBe(True) (0,0s)
+2022-01-04T00:30:45.8000448+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.8000547+03:00:Thread#:Scheduler: testitem #17 from normal test queue 
+2022-01-04T00:30:45.8000561+03:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2022-01-04T00:30:45.8000702+03:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.8000721+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.8000730+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.8000737+03:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2022-01-04T00:30:45.8000853+03:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2022-01-04T00:30:45.8000914+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.8012307+03:00:Thread#0: Test #15/0 is finished on thread #0 as Succeeded within 0,2132452 seconds
+2022-01-04T00:30:45.8015707+03:00:Thread#0: Test #17/0 is started on thread #0
+2022-01-04T00:30:45.8026939+03:00:2022-01-04T00:30:45.8025314+03:00:Thread#0:B:Given Product Purchase have Employee,ShipMethod and Vendor
+2022-01-04T00:30:45.8051453+03:00:2022-01-04T00:30:45.8048787+03:00:Thread#0:T:done: ProductPurchaseSteps.GivenProductPurchaseHaveEmployeeShipMethodAndVendor() (0,0s)
+2022-01-04T00:30:45.8056534+03:00:2022-01-04T00:30:45.8054918+03:00:Thread#0:B:Then the Product Purchase result should be true
+2022-01-04T00:30:45.8066750+03:00:2022-01-04T00:30:45.8065027+03:00:Thread#0:T:done: ProductPurchaseSteps.ThenTheProductPurchaseResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:45.8074562+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.8074674+03:00:Thread#:Scheduler: testitem #18 from normal test queue 
+2022-01-04T00:30:45.8074687+03:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2022-01-04T00:30:45.8074886+03:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.8074904+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.8074912+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.8074919+03:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2022-01-04T00:30:45.8075039+03:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2022-01-04T00:30:45.8075109+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.8084252+03:00:Thread#0: Test #17/0 is finished on thread #0 as Succeeded within 0,0068266 seconds
+2022-01-04T00:30:45.8087009+03:00:Thread#0: Test #18/0 is started on thread #0
+2022-01-04T00:30:45.8098557+03:00:2022-01-04T00:30:45.8095252+03:00:Thread#0:B:Given Product Purchase Id is 2
+2022-01-04T00:30:45.8114107+03:00:2022-01-04T00:30:45.8112062+03:00:Thread#0:T:done: ProductPurchaseSteps.ProductPurchaseIdIs(2) (0,0s)
+2022-01-04T00:30:45.8116892+03:00:2022-01-04T00:30:45.8115981+03:00:Thread#0:B:When Find Product Purchase detail
+2022-01-04T00:30:45.8845604+03:00:2022-01-04T00:30:45.8840937+03:00:Thread#0:T:done: ProductPurchaseSteps.FindProductPurchaseDetail() (0,1s)
+2022-01-04T00:30:45.8852131+03:00:2022-01-04T00:30:45.8849413+03:00:Thread#0:B:Then the Product Purchase result should be true
+2022-01-04T00:30:45.8858600+03:00:2022-01-04T00:30:45.8856020+03:00:Thread#0:T:done: ProductPurchaseSteps.ThenTheProductPurchaseResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:45.8868395+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.8868487+03:00:Thread#:Scheduler: testitem #20 from normal test queue 
+2022-01-04T00:30:45.8868498+03:00:Thread#0:Scheduler: considering testitem #20 for thread 0
+2022-01-04T00:30:45.8868632+03:00:Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.8868650+03:00:Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.8868656+03:00:Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.8868663+03:00:Thread#0:Scheduler: using testitem #20 for thread 0
+2022-01-04T00:30:45.8868798+03:00:Thread#0:Scheduler: Test #20 is scheduled for thread
+2022-01-04T00:30:45.8868854+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.8880058+03:00:Thread#0: Test #18/0 is finished on thread #0 as Succeeded within 0,0792757 seconds
+2022-01-04T00:30:45.8884528+03:00:Thread#0: Test #20/0 is started on thread #0
+2022-01-04T00:30:45.8899532+03:00:2022-01-04T00:30:45.8897856+03:00:Thread#0:B:Given Products Sales have BillToAddress, CreditCard, CurrencyRate, Customer, SalesPerson, ShipMethod, ShipToAddress and Territory
+2022-01-04T00:30:45.8934720+03:00:2022-01-04T00:30:45.8931776+03:00:Thread#0:T:done: ProductsSalesSteps.GivenProductsSalesHave() (0,0s)
+2022-01-04T00:30:45.8938326+03:00:2022-01-04T00:30:45.8937372+03:00:Thread#0:B:Then the Products Sales result should be true
+2022-01-04T00:30:45.8946795+03:00:2022-01-04T00:30:45.8945520+03:00:Thread#0:T:done: ProductsSalesSteps.ThenTheProductsSalesResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:45.8953289+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.8953369+03:00:Thread#:Scheduler: testitem #21 from normal test queue 
+2022-01-04T00:30:45.8953380+03:00:Thread#0:Scheduler: considering testitem #21 for thread 0
+2022-01-04T00:30:45.8953499+03:00:Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.8953588+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.8953594+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.8953602+03:00:Thread#0:Scheduler: using testitem #21 for thread 0
+2022-01-04T00:30:45.8953696+03:00:Thread#0:Scheduler: Test #21 is scheduled for thread
+2022-01-04T00:30:45.8953750+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.8966408+03:00:Thread#0: Test #20/0 is finished on thread #0 as Succeeded within 0,0081447 seconds
+2022-01-04T00:30:45.8971689+03:00:Thread#0: Test #21/0 is started on thread #0
+2022-01-04T00:30:45.8981658+03:00:2022-01-04T00:30:45.8980184+03:00:Thread#0:B:Given Products Sales Id is 2
+2022-01-04T00:30:45.8995264+03:00:2022-01-04T00:30:45.8993497+03:00:Thread#0:T:done: ProductsSalesSteps.GivenProductsSalesIdIs(2) (0,0s)
+2022-01-04T00:30:45.8997603+03:00:2022-01-04T00:30:45.8996763+03:00:Thread#0:B:When Find Products Sales detail
+2022-01-04T00:30:45.9714222+03:00:2022-01-04T00:30:45.9710291+03:00:Thread#0:T:done: ProductsSalesSteps.WhenFindProductsSalesDetail() (0,1s)
+2022-01-04T00:30:45.9719462+03:00:2022-01-04T00:30:45.9717901+03:00:Thread#0:B:Then the Products Sales result should be true
+2022-01-04T00:30:45.9723674+03:00:2022-01-04T00:30:45.9722380+03:00:Thread#0:T:done: ProductsSalesSteps.ThenTheProductsSalesResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:45.9729254+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:45.9729381+03:00:Thread#:Scheduler: testitem #23 from normal test queue 
+2022-01-04T00:30:45.9729398+03:00:Thread#0:Scheduler: considering testitem #23 for thread 0
+2022-01-04T00:30:45.9729611+03:00:Thread#0:TestItem#23:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:45.9729633+03:00:Thread#0:TestItem#23:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:45.9729640+03:00:Thread#0:TestItem#23:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:45.9729652+03:00:Thread#0:Scheduler: using testitem #23 for thread 0
+2022-01-04T00:30:45.9729778+03:00:Thread#0:Scheduler: Test #23 is scheduled for thread
+2022-01-04T00:30:45.9729857+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:45.9743234+03:00:Thread#0: Test #21/0 is finished on thread #0 as Succeeded within 0,0771294 seconds
+2022-01-04T00:30:45.9747974+03:00:Thread#0: Test #23/0 is started on thread #0
+2022-01-04T00:30:45.9843837+03:00:2022-01-04T00:30:45.9840492+03:00:Thread#0:B:Given Product Model and Product Subcategory have
+2022-01-04T00:30:46.4226134+03:00:2022-01-04T00:30:46.4223225+03:00:Thread#0:T:done: ProductTestSteps.GivenPropertyHave() (0,4s)
+2022-01-04T00:30:46.4230100+03:00:2022-01-04T00:30:46.4228411+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:46.4239730+03:00:2022-01-04T00:30:46.4238402+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:46.4245907+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:46.4246003+03:00:Thread#:Scheduler: testitem #24 from normal test queue 
+2022-01-04T00:30:46.4246071+03:00:Thread#0:Scheduler: considering testitem #24 for thread 0
+2022-01-04T00:30:46.4246489+03:00:Thread#0:TestItem#24:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:46.4246534+03:00:Thread#0:TestItem#24:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:46.4246547+03:00:Thread#0:TestItem#24:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:46.4246556+03:00:Thread#0:Scheduler: using testitem #24 for thread 0
+2022-01-04T00:30:46.4246658+03:00:Thread#0:Scheduler: Test #24 is scheduled for thread
+2022-01-04T00:30:46.4246766+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:46.4255640+03:00:Thread#0: Test #23/0 is finished on thread #0 as Succeeded within 0,4507358 seconds
+2022-01-04T00:30:46.4258638+03:00:Thread#0: Test #24/0 is started on thread #0
+2022-01-04T00:30:46.4266839+03:00:2022-01-04T00:30:46.4265379+03:00:Thread#0:B:Given Products Id is 4
+2022-01-04T00:30:46.4282258+03:00:2022-01-04T00:30:46.4280830+03:00:Thread#0:T:done: ProductTestSteps.findProduct(4) (0,0s)
+2022-01-04T00:30:46.4285237+03:00:2022-01-04T00:30:46.4284007+03:00:Thread#0:B:When Find products detail
+2022-01-04T00:30:46.4788528+03:00:2022-01-04T00:30:46.4785674+03:00:Thread#0:T:done: ProductTestSteps.findDetail() (0,0s)
+2022-01-04T00:30:46.4792311+03:00:2022-01-04T00:30:46.4790810+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:46.4795504+03:00:2022-01-04T00:30:46.4794792+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:46.4798671+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:46.4798741+03:00:Thread#:Scheduler: testitem #25 from normal test queue 
+2022-01-04T00:30:46.4798752+03:00:Thread#0:Scheduler: considering testitem #25 for thread 0
+2022-01-04T00:30:46.4798884+03:00:Thread#0:TestItem#25:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:46.4798896+03:00:Thread#0:TestItem#25:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:46.4798901+03:00:Thread#0:TestItem#25:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:46.4798908+03:00:Thread#0:Scheduler: using testitem #25 for thread 0
+2022-01-04T00:30:46.4798982+03:00:Thread#0:Scheduler: Test #25 is scheduled for thread
+2022-01-04T00:30:46.4799030+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:46.4804851+03:00:Thread#0: Test #24/0 is finished on thread #0 as Succeeded within 0,0546044 seconds
+2022-01-04T00:30:46.4807172+03:00:Thread#0: Test #25/0 is started on thread #0
+2022-01-04T00:30:46.4813534+03:00:2022-01-04T00:30:46.4812628+03:00:Thread#0:B:Given Create Product
+2022-01-04T00:30:46.6017196+03:00:2022-01-04T00:30:46.6011873+03:00:Assembly resolving System.Data.Common.resources, Version=5.0.0.0, Culture=tr-TR, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-04T00:30:46.6023642+03:00:2022-01-04T00:30:46.6021242+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' from .deps.json file
+2022-01-04T00:30:46.6029705+03:00:2022-01-04T00:30:46.6027006+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' from .deps.json
+2022-01-04T00:30:46.6035041+03:00:2022-01-04T00:30:46.6031767+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:46.6040215+03:00:2022-01-04T00:30:46.6037122+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\System.Data.Common.resources.dll'
+2022-01-04T00:30:46.6046926+03:00:2022-01-04T00:30:46.6043959+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\System.Data.Common.resources.exe'
+2022-01-04T00:30:46.6052096+03:00:2022-01-04T00:30:46.6049791+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0'
+2022-01-04T00:30:46.6054565+03:00:2022-01-04T00:30:46.6053350+03:00:TargetFramework: .NETCoreApp,Version=v5.0
+2022-01-04T00:30:46.6058511+03:00:2022-01-04T00:30:46.6056114+03:00:Tfm: netcoreapp5.0
+2022-01-04T00:30:46.6060543+03:00:2022-01-04T00:30:46.6059425+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:46.6062337+03:00:2022-01-04T00:30:46.6061431+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Data.Common.resources.dll'
+2022-01-04T00:30:46.6064802+03:00:2022-01-04T00:30:46.6063828+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0\System.Data.Common.resources.exe'
+2022-01-04T00:30:46.6066823+03:00:2022-01-04T00:30:46.6066089+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' in folder 'C:\Users\Olcay\OneDrive\Masaüstü\sa\Functional.Testing\bin\Debug\net5.0\SpecFlowPlusRunner\netcoreapp5.0'
+2022-01-04T00:30:46.6073250+03:00:2022-01-04T00:30:46.6071041+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:46.6076131+03:00:2022-01-04T00:30:46.6074411+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\System.Data.Common.resources.dll'
+2022-01-04T00:30:46.6078494+03:00:2022-01-04T00:30:46.6077828+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12\System.Data.Common.resources.exe'
+2022-01-04T00:30:46.6080865+03:00:2022-01-04T00:30:46.6079541+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.12'
+2022-01-04T00:30:46.6083215+03:00:2022-01-04T00:30:46.6082500+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:46.6084388+03:00:2022-01-04T00:30:46.6083702+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\System.Data.Common.resources.dll'
+2022-01-04T00:30:46.6086224+03:00:2022-01-04T00:30:46.6085566+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12\System.Data.Common.resources.exe'
+2022-01-04T00:30:46.6087677+03:00:2022-01-04T00:30:46.6087076+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.12'
+2022-01-04T00:30:46.6095059+03:00:2022-01-04T00:30:46.6092117+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:46.6096637+03:00:2022-01-04T00:30:46.6096047+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\System.Data.Common.resources.dll'
+2022-01-04T00:30:46.6098328+03:00:2022-01-04T00:30:46.6097649+03:00:[AssemblyCache] Trying to resolve 'System.Data.Common.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12\System.Data.Common.resources.exe'
+2022-01-04T00:30:46.6099874+03:00:2022-01-04T00:30:46.6099162+03:00:[AssemblyCache] Could not resolve 'System.Data.Common.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.12'
+2022-01-04T00:30:46.6104683+03:00:2022-01-04T00:30:46.6103407+03:00:Assembly resolving System.Data.Common.resources, Version=5.0.0.0, Culture=tr, PublicKeyToken=b03f5f7f11d50a3a
+2022-01-04T00:30:46.7629127+03:00:2022-01-04T00:30:46.7623729+03:00:Thread#0:T:done: ProductTestSteps.Create() (0,3s)
+2022-01-04T00:30:46.7640153+03:00:2022-01-04T00:30:46.7635189+03:00:Thread#0:B:When Check date Product has
+2022-01-04T00:30:46.7651676+03:00:2022-01-04T00:30:46.7648787+03:00:Thread#0:T:done: ProductTestSteps.isNull() (0,0s)
+2022-01-04T00:30:46.7655462+03:00:2022-01-04T00:30:46.7653656+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:46.7660772+03:00:2022-01-04T00:30:46.7658225+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:46.7673746+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:46.7673981+03:00:Thread#:Scheduler: testitem #26 from normal test queue 
+2022-01-04T00:30:46.7674014+03:00:Thread#0:Scheduler: considering testitem #26 for thread 0
+2022-01-04T00:30:46.7674396+03:00:Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:46.7674437+03:00:Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:46.7674457+03:00:Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:46.7674481+03:00:Thread#0:Scheduler: using testitem #26 for thread 0
+2022-01-04T00:30:46.7674828+03:00:Thread#0:Scheduler: Test #26 is scheduled for thread
+2022-01-04T00:30:46.7675213+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:46.7693787+03:00:Thread#0: Test #25/0 is finished on thread #0 as Succeeded within 0,2886295 seconds
+2022-01-04T00:30:46.7699960+03:00:Thread#0: Test #26/0 is started on thread #0
+2022-01-04T00:30:46.7718623+03:00:2022-01-04T00:30:46.7716848+03:00:Thread#0:B:Given Edit ProductId is 4 with name is Test Name1
+2022-01-04T00:30:46.9711232+03:00:2022-01-04T00:30:46.9707231+03:00:Thread#0:T:done: ProductTestSteps.editProduct(4, "Test Name1") (0,2s)
+2022-01-04T00:30:46.9716056+03:00:2022-01-04T00:30:46.9714466+03:00:Thread#0:B:When Find product which name is Test Name1 and id 4
+2022-01-04T00:30:47.0207889+03:00:2022-01-04T00:30:47.0203140+03:00:Thread#0:T:done: ProductTestSteps.TestName("Test Name1", 4) (0,0s)
+2022-01-04T00:30:47.0215505+03:00:2022-01-04T00:30:47.0212590+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:47.0223172+03:00:2022-01-04T00:30:47.0220854+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:47.0232164+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.0232247+03:00:Thread#:Scheduler: testitem #27 from normal test queue 
+2022-01-04T00:30:47.0232258+03:00:Thread#0:Scheduler: considering testitem #27 for thread 0
+2022-01-04T00:30:47.0232394+03:00:Thread#0:TestItem#27:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.0232410+03:00:Thread#0:TestItem#27:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.0232423+03:00:Thread#0:TestItem#27:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.0232430+03:00:Thread#0:Scheduler: using testitem #27 for thread 0
+2022-01-04T00:30:47.0232508+03:00:Thread#0:Scheduler: Test #27 is scheduled for thread
+2022-01-04T00:30:47.0232580+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.0246633+03:00:Thread#0: Test #26/0 is finished on thread #0 as Succeeded within 0,2546379 seconds
+2022-01-04T00:30:47.0251947+03:00:Thread#0: Test #27/0 is started on thread #0
+2022-01-04T00:30:47.0261985+03:00:2022-01-04T00:30:47.0260622+03:00:Thread#0:B:Given Delete Product Name is Test
+2022-01-04T00:30:47.2249424+03:00:2022-01-04T00:30:47.2242186+03:00:Thread#0:T:done: ProductTestSteps.deleteProduct("Test") (0,2s)
+2022-01-04T00:30:47.2258039+03:00:2022-01-04T00:30:47.2254723+03:00:Thread#0:B:When Find Product Name is Test
+2022-01-04T00:30:47.2775725+03:00:2022-01-04T00:30:47.2768940+03:00:Thread#0:T:done: ProductTestSteps.FindId("Test") (0,1s)
+2022-01-04T00:30:47.2785669+03:00:2022-01-04T00:30:47.2782302+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:47.2793918+03:00:2022-01-04T00:30:47.2790303+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:47.2807743+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.2807835+03:00:Thread#:Scheduler: testitem #28 from normal test queue 
+2022-01-04T00:30:47.2807859+03:00:Thread#0:Scheduler: considering testitem #28 for thread 0
+2022-01-04T00:30:47.2808144+03:00:Thread#0:TestItem#28:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.2808159+03:00:Thread#0:TestItem#28:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.2808165+03:00:Thread#0:TestItem#28:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.2808172+03:00:Thread#0:Scheduler: using testitem #28 for thread 0
+2022-01-04T00:30:47.2808257+03:00:Thread#0:Scheduler: Test #28 is scheduled for thread
+2022-01-04T00:30:47.2808313+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.2826722+03:00:Thread#0: Test #27/0 is finished on thread #0 as Succeeded within 0,257431 seconds
+2022-01-04T00:30:47.2836047+03:00:Thread#0: Test #28/0 is started on thread #0
+2022-01-04T00:30:47.2846177+03:00:2022-01-04T00:30:47.2844188+03:00:Thread#0:B:Given ProductId is 2
+2022-01-04T00:30:47.3343994+03:00:2022-01-04T00:30:47.3336067+03:00:Thread#0:T:done: ProductTestSteps.productExists(2) (0,0s)
+2022-01-04T00:30:47.3350741+03:00:2022-01-04T00:30:47.3348411+03:00:Thread#0:B:When Find product
+2022-01-04T00:30:47.3364086+03:00:2022-01-04T00:30:47.3359697+03:00:Thread#0:T:done: ProductTestSteps.itHas() (0,0s)
+2022-01-04T00:30:47.3369925+03:00:2022-01-04T00:30:47.3366901+03:00:Thread#0:B:Then the Product result should be true
+2022-01-04T00:30:47.3379760+03:00:2022-01-04T00:30:47.3375559+03:00:Thread#0:T:done: ProductTestSteps.ThenTheResultShouldBe(True) (0,0s)
+2022-01-04T00:30:47.3391819+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.3392173+03:00:Thread#:Scheduler: testitem #30 from normal test queue 
+2022-01-04T00:30:47.3392189+03:00:Thread#0:Scheduler: considering testitem #30 for thread 0
+2022-01-04T00:30:47.3392699+03:00:Thread#0:TestItem#30:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.3392756+03:00:Thread#0:TestItem#30:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.3392762+03:00:Thread#0:TestItem#30:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.3392770+03:00:Thread#0:Scheduler: using testitem #30 for thread 0
+2022-01-04T00:30:47.3392927+03:00:Thread#0:Scheduler: Test #30 is scheduled for thread
+2022-01-04T00:30:47.3393019+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.3408201+03:00:Thread#0: Test #28/0 is finished on thread #0 as Succeeded within 0,0571782 seconds
+2022-01-04T00:30:47.3413467+03:00:Thread#0: Test #30/0 is started on thread #0
+2022-01-04T00:30:47.3425365+03:00:2022-01-04T00:30:47.3423414+03:00:Thread#0:B:Given Product Transaction have Product and Quantity
+2022-01-04T00:30:47.3446839+03:00:2022-01-04T00:30:47.3444748+03:00:Thread#0:T:done: ProductTransactionSteps.GivenProductTransactionHaveProductAndQuantity() (0,0s)
+2022-01-04T00:30:47.3448922+03:00:2022-01-04T00:30:47.3448264+03:00:Thread#0:B:Then the Product Transaction result should be true
+2022-01-04T00:30:47.3458925+03:00:2022-01-04T00:30:47.3457245+03:00:Thread#0:T:done: ProductTransactionSteps.ThenTheProductTransactionResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:47.3468488+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.3468576+03:00:Thread#:Scheduler: testitem #31 from normal test queue 
+2022-01-04T00:30:47.3468588+03:00:Thread#0:Scheduler: considering testitem #31 for thread 0
+2022-01-04T00:30:47.3468717+03:00:Thread#0:TestItem#31:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.3468729+03:00:Thread#0:TestItem#31:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.3468743+03:00:Thread#0:TestItem#31:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.3468751+03:00:Thread#0:Scheduler: using testitem #31 for thread 0
+2022-01-04T00:30:47.3468828+03:00:Thread#0:Scheduler: Test #31 is scheduled for thread
+2022-01-04T00:30:47.3468888+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.3477609+03:00:Thread#0: Test #30/0 is finished on thread #0 as Succeeded within 0,006387 seconds
+2022-01-04T00:30:47.3481287+03:00:Thread#0: Test #31/0 is started on thread #0
+2022-01-04T00:30:47.3491105+03:00:2022-01-04T00:30:47.3488855+03:00:Thread#0:B:Given Product Transaction Id is 100001
+2022-01-04T00:30:47.3509393+03:00:2022-01-04T00:30:47.3507384+03:00:Thread#0:T:done: ProductTransactionSteps.GivenProductTransactionIdİs(100001) (0,0s)
+2022-01-04T00:30:47.3511977+03:00:2022-01-04T00:30:47.3511044+03:00:Thread#0:B:When Find Product Transaction detail
+2022-01-04T00:30:47.4103429+03:00:2022-01-04T00:30:47.4097735+03:00:Thread#0:T:done: ProductTransactionSteps.WhenFindProductTransactionDetail() (0,1s)
+2022-01-04T00:30:47.4111766+03:00:2022-01-04T00:30:47.4107173+03:00:Thread#0:B:Then the Product Transaction result should be true
+2022-01-04T00:30:47.4120744+03:00:2022-01-04T00:30:47.4117702+03:00:Thread#0:T:done: ProductTransactionSteps.ThenTheProductTransactionResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:47.4135605+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.4135838+03:00:Thread#:Scheduler: testitem #33 from normal test queue 
+2022-01-04T00:30:47.4135877+03:00:Thread#0:Scheduler: considering testitem #33 for thread 0
+2022-01-04T00:30:47.4136131+03:00:Thread#0:TestItem#33:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.4136169+03:00:Thread#0:TestItem#33:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.4136192+03:00:Thread#0:TestItem#33:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.4136219+03:00:Thread#0:Scheduler: using testitem #33 for thread 0
+2022-01-04T00:30:47.4136388+03:00:Thread#0:Scheduler: Test #33 is scheduled for thread
+2022-01-04T00:30:47.4136594+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.4162344+03:00:Thread#0: Test #31/0 is finished on thread #0 as Succeeded within 0,0680631 seconds
+2022-01-04T00:30:47.4171678+03:00:Thread#0: Test #33/0 is started on thread #0
+2022-01-04T00:30:47.4186330+03:00:2022-01-04T00:30:47.4184697+03:00:Thread#0:B:Given Profit have BusinessEntity
+2022-01-04T00:30:47.4207750+03:00:2022-01-04T00:30:47.4203220+03:00:Thread#0:T:done: ProfitSteps.GivenProfitHaveBusinessEntity() (0,0s)
+2022-01-04T00:30:47.4216578+03:00:2022-01-04T00:30:47.4211304+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:47.4226761+03:00:2022-01-04T00:30:47.4224340+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:47.4234253+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.4234369+03:00:Thread#:Scheduler: testitem #34 from normal test queue 
+2022-01-04T00:30:47.4234387+03:00:Thread#0:Scheduler: considering testitem #34 for thread 0
+2022-01-04T00:30:47.4234543+03:00:Thread#0:TestItem#34:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.4234569+03:00:Thread#0:TestItem#34:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.4234580+03:00:Thread#0:TestItem#34:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.4234589+03:00:Thread#0:Scheduler: using testitem #34 for thread 0
+2022-01-04T00:30:47.4234681+03:00:Thread#0:Scheduler: Test #34 is scheduled for thread
+2022-01-04T00:30:47.4234760+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.4243960+03:00:Thread#0: Test #33/0 is finished on thread #0 as Succeeded within 0,007194 seconds
+2022-01-04T00:30:47.4248194+03:00:Thread#0: Test #34/0 is started on thread #0
+2022-01-04T00:30:47.4258828+03:00:2022-01-04T00:30:47.4257460+03:00:Thread#0:B:Given Profit Id is 1
+2022-01-04T00:30:47.4270944+03:00:2022-01-04T00:30:47.4269172+03:00:Thread#0:T:done: ProfitSteps.GivenProfitIdİs(1) (0,0s)
+2022-01-04T00:30:47.4273038+03:00:2022-01-04T00:30:47.4272276+03:00:Thread#0:B:When Find Profit detail
+2022-01-04T00:30:47.4764989+03:00:2022-01-04T00:30:47.4758775+03:00:Thread#0:T:done: ProfitSteps.WhenFindProfitDetail() (0,0s)
+2022-01-04T00:30:47.4774096+03:00:2022-01-04T00:30:47.4770074+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:47.4784699+03:00:2022-01-04T00:30:47.4781162+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:47.4793541+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.4793635+03:00:Thread#:Scheduler: testitem #35 from normal test queue 
+2022-01-04T00:30:47.4793650+03:00:Thread#0:Scheduler: considering testitem #35 for thread 0
+2022-01-04T00:30:47.4793857+03:00:Thread#0:TestItem#35:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.4793872+03:00:Thread#0:TestItem#35:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.4793878+03:00:Thread#0:TestItem#35:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.4793886+03:00:Thread#0:Scheduler: using testitem #35 for thread 0
+2022-01-04T00:30:47.4793977+03:00:Thread#0:Scheduler: Test #35 is scheduled for thread
+2022-01-04T00:30:47.4794048+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.4807217+03:00:Thread#0: Test #34/0 is finished on thread #0 as Succeeded within 0,0558693 seconds
+2022-01-04T00:30:47.4814882+03:00:Thread#0: Test #35/0 is started on thread #0
+2022-01-04T00:30:47.4827005+03:00:2022-01-04T00:30:47.4824618+03:00:Thread#0:B:Given Create Profit
+2022-01-04T00:30:47.6976749+03:00:2022-01-04T00:30:47.6971623+03:00:Thread#0:T:done: ProfitSteps.GivenCreateProfit() (0,2s)
+2022-01-04T00:30:47.6984628+03:00:2022-01-04T00:30:47.6981129+03:00:Thread#0:B:When Check created Profit has
+2022-01-04T00:30:47.7663325+03:00:2022-01-04T00:30:47.7659105+03:00:Thread#0:T:done: ProfitSteps.WhenCheckCreatedProfitHas() (0,1s)
+2022-01-04T00:30:47.7670504+03:00:2022-01-04T00:30:47.7667683+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:47.7677612+03:00:2022-01-04T00:30:47.7675171+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:47.7689963+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:47.7690045+03:00:Thread#:Scheduler: testitem #36 from normal test queue 
+2022-01-04T00:30:47.7690056+03:00:Thread#0:Scheduler: considering testitem #36 for thread 0
+2022-01-04T00:30:47.7690184+03:00:Thread#0:TestItem#36:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:47.7690198+03:00:Thread#0:TestItem#36:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:47.7690204+03:00:Thread#0:TestItem#36:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:47.7690212+03:00:Thread#0:Scheduler: using testitem #36 for thread 0
+2022-01-04T00:30:47.7690291+03:00:Thread#0:Scheduler: Test #36 is scheduled for thread
+2022-01-04T00:30:47.7690352+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:47.7702944+03:00:Thread#0: Test #35/0 is finished on thread #0 as Succeeded within 0,2887908 seconds
+2022-01-04T00:30:47.7704999+03:00:Thread#0: Test #36/0 is started on thread #0
+2022-01-04T00:30:47.7714113+03:00:2022-01-04T00:30:47.7712637+03:00:Thread#0:B:Given Edit ProfitId is 1 with MaxOrderQty is 55
+2022-01-04T00:30:47.9672833+03:00:2022-01-04T00:30:47.9667199+03:00:Thread#0:T:done: ProfitSteps.GivenEditProfitIdİsWithNameİsTestTitle(1, 55) (0,2s)
+2022-01-04T00:30:47.9679738+03:00:2022-01-04T00:30:47.9677284+03:00:Thread#0:B:When Find Profit which MaxOrderQty is 55 and id 1
+2022-01-04T00:30:48.0202759+03:00:2022-01-04T00:30:48.0198693+03:00:Thread#0:T:done: ProfitSteps.WhenFindProfitWhichNameİsTestTitleAndİd(55, 1) (0,1s)
+2022-01-04T00:30:48.0208768+03:00:2022-01-04T00:30:48.0206447+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:48.0213527+03:00:2022-01-04T00:30:48.0212277+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.0221067+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.0221137+03:00:Thread#:Scheduler: testitem #37 from normal test queue 
+2022-01-04T00:30:48.0221155+03:00:Thread#0:Scheduler: considering testitem #37 for thread 0
+2022-01-04T00:30:48.0221281+03:00:Thread#0:TestItem#37:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.0221293+03:00:Thread#0:TestItem#37:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.0221311+03:00:Thread#0:TestItem#37:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.0221320+03:00:Thread#0:Scheduler: using testitem #37 for thread 0
+2022-01-04T00:30:48.0221408+03:00:Thread#0:Scheduler: Test #37 is scheduled for thread
+2022-01-04T00:30:48.0221621+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.0234944+03:00:Thread#0: Test #36/0 is finished on thread #0 as Succeeded within 0,2529389 seconds
+2022-01-04T00:30:48.0239659+03:00:Thread#0: Test #37/0 is started on thread #0
+2022-01-04T00:30:48.0251054+03:00:2022-01-04T00:30:48.0248884+03:00:Thread#0:B:Given Delete Profit BusinessEntityId is 1698
+2022-01-04T00:30:48.2167190+03:00:2022-01-04T00:30:48.2161120+03:00:Thread#0:T:done: ProfitSteps.GivenDeleteProfitProfitIdİs(1698) (0,2s)
+2022-01-04T00:30:48.2174381+03:00:2022-01-04T00:30:48.2171171+03:00:Thread#0:B:When Find Profit BusinessEntityId is 1698
+2022-01-04T00:30:48.2707709+03:00:2022-01-04T00:30:48.2703251+03:00:Thread#0:T:done: ProfitSteps.WhenFindProfitProfitIdİs(1698) (0,1s)
+2022-01-04T00:30:48.2712742+03:00:2022-01-04T00:30:48.2710193+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:48.2717916+03:00:2022-01-04T00:30:48.2716687+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.2722374+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.2722474+03:00:Thread#:Scheduler: testitem #38 from normal test queue 
+2022-01-04T00:30:48.2722485+03:00:Thread#0:Scheduler: considering testitem #38 for thread 0
+2022-01-04T00:30:48.2722639+03:00:Thread#0:TestItem#38:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.2722658+03:00:Thread#0:TestItem#38:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.2722665+03:00:Thread#0:TestItem#38:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.2722672+03:00:Thread#0:Scheduler: using testitem #38 for thread 0
+2022-01-04T00:30:48.2722770+03:00:Thread#0:Scheduler: Test #38 is scheduled for thread
+2022-01-04T00:30:48.2722829+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.2728809+03:00:Thread#0: Test #37/0 is finished on thread #0 as Succeeded within 0,2488915 seconds
+2022-01-04T00:30:48.2730721+03:00:Thread#0: Test #38/0 is started on thread #0
+2022-01-04T00:30:48.2738089+03:00:2022-01-04T00:30:48.2737045+03:00:Thread#0:B:Given Profit Id is 4
+2022-01-04T00:30:48.2742014+03:00:2022-01-04T00:30:48.2741138+03:00:Thread#0:T:done: ProfitSteps.GivenProfitIdİs(4) (0,0s)
+2022-01-04T00:30:48.2743836+03:00:2022-01-04T00:30:48.2743053+03:00:Thread#0:B:When Find Profit
+2022-01-04T00:30:48.3218186+03:00:2022-01-04T00:30:48.3215225+03:00:Thread#0:T:done: ProfitSteps.WhenFindProfit() (0,0s)
+2022-01-04T00:30:48.3221532+03:00:2022-01-04T00:30:48.3220429+03:00:Thread#0:B:Then the Profit result should be true
+2022-01-04T00:30:48.3225082+03:00:2022-01-04T00:30:48.3224265+03:00:Thread#0:T:done: ProfitSteps.ThenTheProfitResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.3228652+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.3228740+03:00:Thread#:Scheduler: testitem #40 from normal test queue 
+2022-01-04T00:30:48.3228753+03:00:Thread#0:Scheduler: considering testitem #40 for thread 0
+2022-01-04T00:30:48.3228906+03:00:Thread#0:TestItem#40:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.3228921+03:00:Thread#0:TestItem#40:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.3229011+03:00:Thread#0:TestItem#40:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.3229020+03:00:Thread#0:Scheduler: using testitem #40 for thread 0
+2022-01-04T00:30:48.3229108+03:00:Thread#0:Scheduler: Test #40 is scheduled for thread
+2022-01-04T00:30:48.3229173+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.3236569+03:00:Thread#0: Test #38/0 is finished on thread #0 as Succeeded within 0,0505704 seconds
+2022-01-04T00:30:48.3239241+03:00:Thread#0: Test #40/0 is started on thread #0
+2022-01-04T00:30:48.3251831+03:00:2022-01-04T00:30:48.3250449+03:00:Thread#0:B:Given Sales Territories have CountryRegionCodeNavigation
+2022-01-04T00:30:48.3266112+03:00:2022-01-04T00:30:48.3264736+03:00:Thread#0:T:done: SalesTerritoriesSteps.GivenSalesTerritoriesHaveProductAndQuantity() (0,0s)
+2022-01-04T00:30:48.3268494+03:00:2022-01-04T00:30:48.3267487+03:00:Thread#0:B:Then the Sales Territories result should be true
+2022-01-04T00:30:48.3274996+03:00:2022-01-04T00:30:48.3273655+03:00:Thread#0:T:done: SalesTerritoriesSteps.ThenTheSalesTerritoriesResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.3283392+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.3283763+03:00:Thread#:Scheduler: testitem #41 from normal test queue 
+2022-01-04T00:30:48.3283815+03:00:Thread#0:Scheduler: considering testitem #41 for thread 0
+2022-01-04T00:30:48.3284297+03:00:Thread#0:TestItem#41:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.3284399+03:00:Thread#0:TestItem#41:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.3284444+03:00:Thread#0:TestItem#41:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.3284479+03:00:Thread#0:Scheduler: using testitem #41 for thread 0
+2022-01-04T00:30:48.3284786+03:00:Thread#0:Scheduler: Test #41 is scheduled for thread
+2022-01-04T00:30:48.3285045+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.3294620+03:00:Thread#0: Test #40/0 is finished on thread #0 as Succeeded within 0,0055063 seconds
+2022-01-04T00:30:48.3298815+03:00:Thread#0: Test #41/0 is started on thread #0
+2022-01-04T00:30:48.3307565+03:00:2022-01-04T00:30:48.3305933+03:00:Thread#0:B:Given Sales Territories Id is 1
+2022-01-04T00:30:48.3328256+03:00:2022-01-04T00:30:48.3324327+03:00:Thread#0:T:done: SalesTerritoriesSteps.GivenSalesTerritoriesIdİs(1) (0,0s)
+2022-01-04T00:30:48.3331351+03:00:2022-01-04T00:30:48.3330282+03:00:Thread#0:B:When Find Sales Territories detail
+2022-01-04T00:30:48.4038509+03:00:2022-01-04T00:30:48.4034630+03:00:Thread#0:T:done: SalesTerritoriesSteps.WhenFindSalesTerritoriesDetail() (0,1s)
+2022-01-04T00:30:48.4045021+03:00:2022-01-04T00:30:48.4042111+03:00:Thread#0:B:Then the Sales Territories result should be true
+2022-01-04T00:30:48.4052623+03:00:2022-01-04T00:30:48.4050080+03:00:Thread#0:T:done: SalesTerritoriesSteps.ThenTheSalesTerritoriesResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.4064227+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.4064469+03:00:Thread#:Scheduler: testitem #43 from normal test queue 
+2022-01-04T00:30:48.4064488+03:00:Thread#0:Scheduler: considering testitem #43 for thread 0
+2022-01-04T00:30:48.4064705+03:00:Thread#0:TestItem#43:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.4064721+03:00:Thread#0:TestItem#43:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.4064731+03:00:Thread#0:TestItem#43:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.4064741+03:00:Thread#0:Scheduler: using testitem #43 for thread 0
+2022-01-04T00:30:48.4064869+03:00:Thread#0:Scheduler: Test #43 is scheduled for thread
+2022-01-04T00:30:48.4065039+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.4077390+03:00:Thread#0: Test #41/0 is finished on thread #0 as Succeeded within 0,0778306 seconds
+2022-01-04T00:30:48.4082864+03:00:Thread#0: Test #43/0 is started on thread #0
+2022-01-04T00:30:48.4095168+03:00:2022-01-04T00:30:48.4093940+03:00:Thread#0:B:Given WareHause have Product and Location
+2022-01-04T00:30:48.4114071+03:00:2022-01-04T00:30:48.4112092+03:00:Thread#0:T:done: WareHauseSteps.GivenWareHauseHaveProductAndLocation() (0,0s)
+2022-01-04T00:30:48.4116480+03:00:2022-01-04T00:30:48.4115506+03:00:Thread#0:B:Then the WareHause result should be true
+2022-01-04T00:30:48.4128173+03:00:2022-01-04T00:30:48.4126282+03:00:Thread#0:T:done: WareHauseSteps.ThenTheWareHauseResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.4135752+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.4135895+03:00:Thread#:Scheduler: testitem #44 from normal test queue 
+2022-01-04T00:30:48.4135917+03:00:Thread#0:Scheduler: considering testitem #44 for thread 0
+2022-01-04T00:30:48.4136418+03:00:Thread#0:TestItem#44:testItemMatchesCurrentTestThread:UnSpecific
+2022-01-04T00:30:48.4136462+03:00:Thread#0:TestItem#44:runsOnOneOtherThreadSpecific:False
+2022-01-04T00:30:48.4136473+03:00:Thread#0:TestItem#44:runsOnOneOtherThreadUnspecific:False
+2022-01-04T00:30:48.4136485+03:00:Thread#0:Scheduler: using testitem #44 for thread 0
+2022-01-04T00:30:48.4136642+03:00:Thread#0:Scheduler: Test #44 is scheduled for thread
+2022-01-04T00:30:48.4136734+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2022-01-04T00:30:48.4148561+03:00:Thread#0: Test #43/0 is finished on thread #0 as Succeeded within 0,0065389 seconds
+2022-01-04T00:30:48.4152336+03:00:Thread#0: Test #44/0 is started on thread #0
+2022-01-04T00:30:48.4163621+03:00:2022-01-04T00:30:48.4162209+03:00:Thread#0:B:Given Create WareHause
+2022-01-04T00:30:48.6330668+03:00:2022-01-04T00:30:48.6324609+03:00:Thread#0:T:done: WareHauseSteps.GivenCreateWareHause() (0,2s)
+2022-01-04T00:30:48.6339195+03:00:2022-01-04T00:30:48.6335541+03:00:Thread#0:B:When Check created WareHause has
+2022-01-04T00:30:48.6828961+03:00:2022-01-04T00:30:48.6821642+03:00:Thread#0:T:done: WareHauseSteps.WhenCheckCreatedWareHauseHas() (0,0s)
+2022-01-04T00:30:48.6840265+03:00:2022-01-04T00:30:48.6835446+03:00:Thread#0:B:Then the WareHause result should be true
+2022-01-04T00:30:48.6849406+03:00:2022-01-04T00:30:48.6845888+03:00:Thread#0:T:done: WareHauseSteps.ThenTheWareHauseResultShouldBeTrue(True) (0,0s)
+2022-01-04T00:30:48.6862240+03:00:Thread#0:Scheduler: get next test for thread 0
+2022-01-04T00:30:48.6862340+03:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-04T00:30:48.6862352+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2022-01-04T00:30:48.6862365+03:00:Thread#0:Scheduler: No more tests for thread
+2022-01-04T00:30:48.6882464+03:00:Thread#0: Test #44/0 is finished on thread #0 as Succeeded within 0,2729953 seconds
+2022-01-04T00:30:48.6936955+03:00:2022-01-04T00:30:48.6931247+03:00:Got Deinitialize Signal
+2022-01-04T00:30:48.6958318+03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2022-01-04T00:30:48.6965193+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-01-04T00:30:48.6969094+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2022-01-04T00:30:48.7010048+03:00:Thread#-1:Scheduler: get next test for thread -1
+2022-01-04T00:30:48.7010226+03:00:Thread#:Scheduler: at the end of normal test queue
+2022-01-04T00:30:48.7010240+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2022-01-04T00:30:48.7022658+03:00;Thread#12;Info;test run finished
+2022-01-04T00:30:48.7024782+03:00;Thread#12;Info;publishing test results
+2022-01-04T00:30:48.7025470+03:00;Thread#12;Info;Not publishing results.
+2022-01-04T00:30:48.7025731+03:00;Thread#12;Info;test results published
+2022-01-04T00:30:48.7025869+03:00;Thread#12;Info;generating reports
+2022-01-04T00:30:48.7413009+03:00;Thread#12;Info;Starting external report generation process
+2022-01-04T00:30:49.5792161+03:00;Thread#12;Info;Successfully generated reports.
+2022-01-04T00:30:49.5805312+03:00;Thread#12;Info;Successfully generated reports
+2022-01-04T00:30:49.5852749+03:00:Total: 32
+2022-01-04T00:30:49.5865556+03:00:Succeeded: 32
+2022-01-04T00:30:49.5867317+03:00:Ignored: 0
+2022-01-04T00:30:49.5868477+03:00:Pending: 0
+2022-01-04T00:30:49.5868604+03:00:Skipped: 0
+2022-01-04T00:30:49.5869709+03:00:Failed: 0
+2022-01-04T00:30:49.5915273+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2022-01-04T00:30:49.5915660+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Olcay\OneDrive\Masaüstü\sa\BusinessAnalytic\TestResults\Unnamed project__2022-01-04T003041.html'
+========== End of log file ==========

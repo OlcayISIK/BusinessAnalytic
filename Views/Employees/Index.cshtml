@@ -1,0 +1,69 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<BusinessAnalytic.Models.Entities.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card bg-light p-lg-5 section">
+
+
+    <h1>Employee List</h1>
+
+    <p>
+        <a class="button" asp-action="Create">Create New Employee</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().JobTitle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().BirthDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().HireDate)
+                </th>
+                <th>
+                    Full Name
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JobTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BirthDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HireDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BusinessEntity.FirstName) @Html.DisplayFor(modelItem => item.BusinessEntity.LastName)
+                    </td>
+                    <td>
+
+                        <a asp-action="Edit" asp-route-id="@item.BusinessEntityId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.BusinessEntityId">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+</div>

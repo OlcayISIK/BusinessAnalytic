@@ -1,0 +1,158 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container m-lg-5">
+    <div class="row">
+        <div class="col mb-5">
+            <div id="chartdiv"></div>
+        </div>
+        <div class="col">
+            <div id="warehousechartdiv"></div>
+        </div>
+             <div class="w-100"></div>
+        <div class="col mb-5">
+            <div id="sellchartdiv"></div>
+        </div>
+        <div class="col">
+            <div id="vendorchartdiv"></div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current',{'packages':['corechart']});
+             google.charts.setOnLoadCallback(DrawonLoad);
+             function DrawonLoad(){
+                 $(function (){
+                     $.ajax({
+                         type: 'GET',
+                         url: '/Dashboard/VisualizePieChart',
+                         success: function(chartsdata){
+                             var Data = chartsdata.jsonList;
+                             var data = new google.visualization.DataTable();
+                             data.addColumn('string', 'Name');
+                             data.addColumn('number', 'ActualCost');
+
+                             for(var i = 0; i < Data.length; i++){
+                                 data.addRow([Data[i].name, Data[i].actualCost]);
+                             }
+
+                             var chart = new google.visualization.PieChart(document.getElementById('chartdiv'));
+                             chart.draw(data,
+                             {
+                                 title:"Products Purchase Amount",
+                                 position:"top",
+                                 fontsize:"14px"
+                             });
+                         },
+                         error: function(){
+                             alert('Error')
+                         }
+                     })
+                 });
+             }
+        </script>
+
+        <script type="text/javascript">
+            google.charts.load('current',{'packages':['corechart']});
+             google.charts.setOnLoadCallback(DrawonLoad);
+             function DrawonLoad(){
+                 $(function (){
+                     $.ajax({
+                         type: 'GET',
+                         url: '/Dashboard/VisualizeSellPieChart',
+                         success: function(chartsdata){
+                             var Data = chartsdata.jsonList;
+                             var data = new google.visualization.DataTable();
+                             data.addColumn('string', 'Name');
+                             data.addColumn('number', 'ActualCost');
+
+                             for(var i = 0; i < Data.length; i++){
+                                 data.addRow([Data[i].name, Data[i].actualCost]);
+                             }
+
+                             var chart = new google.visualization.PieChart(document.getElementById('sellchartdiv'));
+                             chart.draw(data,
+                             {
+                                 title:"Products Sell Amount",
+                                 position:"top",
+                                 fontsize:"14px"
+                             });
+                         },
+                         error: function(){
+                             alert('Error')
+                         }
+                     })
+                 });
+             }
+        </script>
+                <script type="text/javascript">
+            google.charts.load('current',{'packages':['corechart']});
+             google.charts.setOnLoadCallback(DrawonLoad);
+             function DrawonLoad(){
+                 $(function (){
+                     $.ajax({
+                         type: 'GET',
+                         url: '/Dashboard/VisualizeWarehouseColumnChart',
+                         success: function(chartsdata){
+                             var Data = chartsdata.jsonList;
+                             var data = new google.visualization.DataTable();
+                             data.addColumn('string', 'Name');
+                             data.addColumn('number', 'Quantity');
+
+                             for(var i = 0; i < Data.length; i++){
+                                 data.addRow([Data[i].name, Data[i].quantity]);
+                             }
+
+                             var chart = new google.visualization.ColumnChart(document.getElementById('warehousechartdiv'));
+                             chart.draw(data,
+                             {
+                                 title:"Warehouse Location/Stock",
+                                 position:"top",
+                                 fontsize:"14px"
+                             });
+                         },
+                         error: function(){
+                             alert('Error')
+                         }
+                     })
+                 });
+             }
+        </script>
+         <script type="text/javascript">
+            google.charts.load('current',{'packages':['corechart']});
+             google.charts.setOnLoadCallback(DrawonLoad);
+             function DrawonLoad(){
+                 $(function (){
+                     $.ajax({
+                         type: 'GET',
+                         url: '/Dashboard/VisualizeVendorColumnChart',
+                         success: function(chartsdata){
+                             var Data = chartsdata.jsonList;
+                             var data = new google.visualization.DataTable();
+                             data.addColumn('string', 'Name');
+                             data.addColumn('number', 'StandardPrice');
+
+                             for(var i = 0; i < Data.length; i++){
+                                 data.addRow([Data[i].name, Data[i].standardPrice]);
+                             }
+
+                             var chart = new google.visualization.ColumnChart(document.getElementById('vendorchartdiv'));
+                             chart.draw(data,
+                             {
+                                 title:"Prices of Vendors in The Market by Products",
+                                 position:"top",
+                                 fontsize:"14px"
+                             });
+                         },
+                         error: function(){
+                             alert('Error')
+                         }
+                     })
+                 });
+             }
+        </script>
+}

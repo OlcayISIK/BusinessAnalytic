@@ -1,0 +1,75 @@
+﻿@{ Layout = "_LoginLayout";
+    ViewData["Title"] = "User Login";
+}
+
+<style>
+
+    .btn-grad {
+        background-image: linear-gradient(to right, #f50b53 0%, #075ac1 51%, #1f1f6f 100%)
+    }
+
+    .btn-grad {
+       
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        display: block;
+    }
+
+        .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }
+    .icon {
+        padding: 10px;
+        background-color: #2f2d2d;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    ::deep .input-field {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: #2f2d2d;
+        color: white;
+    }
+
+</style>
+
+    <section class="vh-100" style="background-image:url('../../banner.png');background-repeat:no-repeat;background-size:cover;background-attachment:fixed;">
+        <div class="container h-100" style="padding-bottom: 30px; ">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="card mb-3" style="height: 800px; width: 740px; background-color: transparent; border: 1px solid; box-shadow: 0 0 200px #808080; ">
+                    <div class="card-header" style="height: 60px; width: 740px; background-color: #0808aa ">
+                        <h3 class="fw-normal mb-3 pb-3 text-white" style="letter-spacing: 1px; text-align:center;">User Login</h3>
+                    </div>
+                    <div class="card-body p-5 p-lg-5 text-black">
+                        <form method="post">
+                            <div class="d-flex align-items-center mb-3 pb-1">
+                                <img src="~/Logo.png" style="margin:auto" height="330" width="450" />
+                            </div>
+                            <div class="form-outline mb-4 row">
+                                <i class="fa fa-user icon"></i> <input name="Name" class="form-control form-control-lg input-field" />
+                            </div>
+                            <div class="form-outline mb-4 row">
+                                <i class="fa fa-key icon"></i> <input type="password" name="Password" class="form-control form-control-lg input-field" />
+                            </div>
+                            <div style="text-align:center;">
+                                <button class="btn btn-lg btn-block text-white btn-grad" style="background-color:#14007d" type="submit">Login</button>
+                                <a class="text-warning" href="/Login/Register">Don't have a account yet?</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
